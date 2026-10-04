@@ -264,7 +264,7 @@ NARRATIVE_SECTION_HTML = f'''
 # ---------------------------------------------------------------------
 # HTML assembly
 # ---------------------------------------------------------------------
-HEAD = '''<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px 'Times New Roman',Times,serif;background:#ffffff;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+HEAD = '''<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px 'Times New Roman',Times,serif;background:#ffffff;color:#141413}@media (prefers-color-scheme:dark){body{background:#15140f;color:#f0ede3}}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>NYNJ Capital Risk Data</title>
 <style>
 /* Layout concept: institutional / audit-workpaper register -- compact cover-sheet header with a
@@ -277,8 +277,7 @@ HEAD = '''<!doctype html><html><head><meta charset=utf8><meta name=viewport cont
 :root{
   --bg:#ffffff; --surface:#ffffff; --surface-2:#f2f2f2;
   --ink:#14130f; --ink-2:#4b4a44; --ink-3:#84827a; --rule:#dcdcdc;
-  --navy:#0f1a2b; --navy-ink:#f3f1e9;
-  --blue:#2a78d6; --orange:#eb6834; --aqua:#1baf7a;
+  --blue:#2a78d6; --orange:#eb6834; --aqua:#1baf7a; --aqua-text:#0d7a52;
   --good:#0ca30c; --warning:#a96a00; --serious:#c1512e;
   --ai:#6d49c4;
   --radius:3px; --radius-lg:4px;
@@ -286,8 +285,19 @@ HEAD = '''<!doctype html><html><head><meta charset=utf8><meta name=viewport cont
   --font-body:'Times New Roman',Times,Georgia,serif;
   --font-mono:'Times New Roman',Times,Georgia,serif;
 }
-/* Dark-mode auto-switch intentionally removed: this page always renders the light/white
-   palette above, regardless of the viewer's OS or browser color-scheme setting. */
+/* Follows the viewer's own OS/browser setting -- same tokens, dark-surface values.
+   Colors are re-stepped (not just darkened) to clear the dataviz-skill validator's
+   dark-mode lightness band and contrast floor against the dark surface, not just
+   inverted from the light set. */
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#15140f; --surface:#1c1b15; --surface-2:#272620;
+    --ink:#f0ede3; --ink-2:#c2bfb2; --ink-3:#8c897d; --rule:#3a382f;
+    --blue:#4a86d0; --orange:#cf723a; --aqua:#1fae82; --aqua-text:#1fae82;
+    --good:#3fae3f; --warning:#bf8028; --serious:#d9683f;
+    --ai:#9a7bdb;
+  }
+}
 *{box-sizing:border-box;}
 body{background:var(--bg); color:var(--ink); font-family:var(--font-body); padding-inline:0;}
 .wrap{max-width:1180px; margin:0 auto; padding:0 20px 64px;}
@@ -323,8 +333,8 @@ section{padding:26px 0;}
 .card{background:var(--surface); border:1px solid var(--rule); border-radius:var(--radius-lg);}
 
 /* ---------- map ---------- */
-.map-wrap{display:flex; gap:22px; padding:18px; flex-wrap:wrap;}
-.map-svg-wrap{flex:0 0 auto; width:260px; max-width:100%;}
+.map-wrap{display:flex; gap:32px; padding:18px; flex-wrap:wrap; align-items:center;}
+.map-svg-wrap{flex:1 1 380px; max-width:520px; min-width:260px;}
 .map-svg-wrap svg{width:100%; height:auto; display:block; overflow:visible;}
 .map-bg-ny{fill:color-mix(in srgb, var(--blue) 6%, var(--surface)); stroke:color-mix(in srgb, var(--blue) 22%, var(--rule)); stroke-width:1;}
 .map-bg-li{fill:color-mix(in srgb, var(--blue) 6%, var(--surface)); stroke:color-mix(in srgb, var(--blue) 22%, var(--rule)); stroke-width:1;}
@@ -336,7 +346,7 @@ section{padding:26px 0;}
 .map-node.selected circle{stroke:var(--ink); stroke-width:2.5;}
 .map-node .node-count{font-family:var(--font-mono); font-weight:700; fill:#fff; text-anchor:middle; pointer-events:none;}
 .map-node .node-label{font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.03em; fill:var(--ink-3); text-anchor:middle; pointer-events:none;}
-.map-side{flex:1 1 200px; min-width:190px; display:flex; flex-direction:column; gap:12px; justify-content:center;}
+.map-side{flex:0 1 260px; min-width:190px; display:flex; flex-direction:column; gap:12px; justify-content:center;}
 .map-legend{display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:var(--ink-2);}
 .map-legend-item{display:flex; align-items:center; gap:8px;}
 .map-legend-item i{width:9px; height:9px; border-radius:1px; display:inline-block; flex:0 0 auto; background:var(--surface-2); border:1px solid var(--rule);}
@@ -397,7 +407,7 @@ section{padding:26px 0;}
 .tag-ver-u{color:var(--serious); border-color:color-mix(in srgb, var(--serious) 40%, transparent);}
 .tag-st-ny{color:var(--blue); border-color:color-mix(in srgb, var(--blue) 45%, transparent); background:color-mix(in srgb, var(--blue) 8%, var(--surface));}
 .tag-st-nj{color:var(--orange); border-color:color-mix(in srgb, var(--orange) 45%, transparent); background:color-mix(in srgb, var(--orange) 8%, var(--surface));}
-.tag-st-bi{color:#0d7a52; border-color:color-mix(in srgb, var(--aqua) 45%, transparent); background:color-mix(in srgb, var(--aqua) 10%, var(--surface));}
+.tag-st-bi{color:var(--aqua-text); border-color:color-mix(in srgb, var(--aqua) 45%, transparent); background:color-mix(in srgb, var(--aqua) 10%, var(--surface));}
 .tag-ai{color:var(--ai); border-color:color-mix(in srgb, var(--ai) 45%, transparent); background:color-mix(in srgb, var(--ai) 8%, var(--surface));}
 
 /* ---------- case register (table) ---------- */
@@ -608,7 +618,7 @@ footer a{color:var(--ink-2);}
   </section>
 
   <footer>
-    <p>Built from the same independently verified dataset as the companion memo and deck &mdash; see those for full sourcing and methodology. Typology and risk tiers are precomputed; nothing on this page runs a live model call.</p>
+    <p>See the <a href="https://github.com/Tgeon/NYNJ-Capital-Risk-Data" target="_blank" rel="noopener">project's GitHub repository</a> for full sourcing and methodology. Typology and risk tiers are precomputed; nothing on this page runs a live model call.</p>
     <p>Theo Bae &middot; <span id="footer-date"></span></p>
   </footer>
 </div>
@@ -727,13 +737,13 @@ TAIL_AFTER_DATA = '''</script>
 
   function initDb(){
     if (!window.claude || typeof window.claude.use !== "function"){
-      setDbStatusText("View-only preview");
+      setDbStatusText("Review marks are not saved");
       return;
     }
     window.claude.use('db').then(function(ns){
       dbNS = ns;
-      if (!dbNS){ setDbStatusText("View-only preview"); return; }
-      setDbStatusText("Review status syncs live");
+      if (!dbNS){ setDbStatusText("Review marks are not saved"); return; }
+      setDbStatusText("Review marks save to your browser session");
       try {
         dbNS.collection('review').onSnapshot(function(snap){
           snap.docs.forEach(function(d){
@@ -744,7 +754,7 @@ TAIL_AFTER_DATA = '''</script>
           console.error('review subscribe error', err);
         });
       } catch(e){ console.error(e); }
-    }).catch(function(e){ console.error(e); setDbStatusText("View-only preview"); });
+    }).catch(function(e){ console.error(e); setDbStatusText("Review marks are not saved"); });
   }
 
   function saveReview(caseId, patch){
@@ -968,11 +978,16 @@ TAIL_AFTER_DATA = '''</script>
     var max = 1;
     periods.forEach(function(p){ var t = bins[p].confirmed+bins[p].probable+bins[p].uncorroborated; if (t>max) max=t; });
     var w = 420, h = 150, padB = 30, padT = 8, colW = w/periods.length, barW = Math.min(46, colW*0.55);
+    // Full "1968–1971"-style labels only fit when there's room for every column; past ~8
+    // periods they run into each other, so crowded axes fall back to the bin's start year
+    // and skip every other tick, with the full range still readable on hover via <title>.
+    var crowded = periods.length > 8;
     var colorVar = {confirmed:"var(--good)", probable:"var(--warning)", uncorroborated:"var(--serious)"};
     var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" role="img" aria-label="Cases by period">';
     periods.forEach(function(p, i){
       var cx = i*colW + colW/2;
       var y = h - padB;
+      svg += '<g><title>' + esc(p) + '</title>';
       VERIFICATION_ORDER.forEach(function(v){
         var n = bins[p][v] || 0;
         if (!n) return;
@@ -980,7 +995,11 @@ TAIL_AFTER_DATA = '''</script>
         svg += '<rect x="' + (cx-barW/2) + '" y="' + (y-segH) + '" width="' + barW + '" height="' + Math.max(0,segH-1) + '" fill="' + colorVar[v] + '"></rect>';
         y -= segH;
       });
-      svg += '<text x="' + cx + '" y="' + (h-8) + '" font-size="9.5" fill="var(--ink-3)" text-anchor="middle" font-family="var(--font-mono)">' + p + '</text>';
+      svg += '</g>';
+      if (!crowded || i % 2 === 0){
+        var label = crowded ? p.split('–')[0] : p;
+        svg += '<text x="' + cx + '" y="' + (h-8) + '" font-size="9.5" fill="var(--ink-3)" text-anchor="middle" font-family="var(--font-mono)">' + esc(label) + '</text>';
+      }
     });
     svg += '</svg>';
     host.innerHTML = svg;
