@@ -24,7 +24,8 @@ The page also includes:
 
 Reads data/cases_with_controls.json, data/ai_typology.json,
 data/risk_index.json, data/state_narratives.json, data/summary.json, and
-data/severity_summary.json. Writes capital_risk_tracker.html.
+data/severity_summary.json. Writes index.html, served directly from this
+repo via GitHub Pages.
 """
 
 import json
@@ -1300,7 +1301,7 @@ TAIL_AFTER_DATA = '''</script>
 HEAD = HEAD.replace("__N_CASES__", str(len(CASES)))
 full = HEAD + CASE_DATA_JSON + TAIL_AFTER_DATA
 
-out_path = "capital_risk_tracker.html"
+out_path = "index.html"
 with open(out_path, "w") as f:
     f.write(full)
 

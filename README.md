@@ -1,6 +1,6 @@
 # NYNJ Capital Risk Data
 
-**[Open the interactive tracker →](https://claude.ai/artifact/TQ6ngMFRFBG1Puq8QEEu4U)**
+**[Open the interactive tracker →](https://tgeon.github.io/nynj-capital-risk-data/)**
 
 118 enforcement and litigation cases tied to capital construction projects in New York, New Jersey,
 and the bi-state Port Authority of NY & NJ. Each case is sourced and checked individually, not
@@ -139,15 +139,18 @@ visiting it doesn't use anyone's Claude usage.
   "New Jersey," and Port Authority sections, built entirely from computed values. Writes
   `data/state_narratives.json`.
 - `build_tracker.py` — assembles all of the above, plus the case register, filters, map, and
-  charts, into `capital_risk_tracker.html`, published via the Artifact tool.
+  charts, into `index.html`, served directly from this repo via GitHub Pages.
 
 ## Hosting
 
-This repository is the project's public landing page — read the stats, framing, and links above
-directly on GitHub. The tracker itself is currently published via Claude's Artifact tool.
-`capital_risk_tracker.html` in this repo is the same file and has no external dependencies, so it
-can also be served directly from this repo via GitHub Pages if a fully GitHub-hosted version is
-preferred.
+Everything lives on GitHub: the code and dataset are this repo, and the tracker is served
+straight from it via GitHub Pages at the link above. `index.html` at the repo root is the
+tracker's entire output — one self-contained file with no external scripts, fonts, or images — so
+GitHub Pages serves it as-is with no build step.
+
+To turn this on for a repo (one-time setup): Settings → Pages → Source: "Deploy from a branch" →
+Branch: `main`, folder: `/ (root)` → Save. GitHub publishes the new `index.html` within a minute or
+two of every push to `main`.
 
 ## Reproduce from scratch
 
@@ -163,7 +166,7 @@ python3 charts.py              # -> charts/*.png (8 exhibits)
 # Tracker (after the above; see "How the tracker works" above)
 python3 risk_index.py          # -> data/risk_index.json, data/state_summaries.json
 python3 state_narratives.py    # -> data/state_narratives.json
-python3 build_tracker.py       # -> capital_risk_tracker.html (published via the Artifact tool)
+python3 build_tracker.py       # -> index.html (served by GitHub Pages)
 ```
 
 Each script is standalone and prints its own results to stdout, so you can run and check one
