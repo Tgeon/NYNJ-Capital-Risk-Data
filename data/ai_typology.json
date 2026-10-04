@@ -1,0 +1,1395 @@
+[
+  {
+    "case_id": "ny-cap-2018-s",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Scheme described as an 'identity-theft/MWBE fraud' combining stolen identity information with false MWBE certification",
+      "Concurrent prevailing-wage theft on the same public contracts",
+      "Parallel insurance-fraud scheme run alongside the certification fraud",
+      "Tax evasion charged alongside the fraud scheme",
+      "$800,000 restitution agreed at sentencing, indicating a large multi-year scheme"
+    ],
+    "verification_gap": "No process independently verified that the identity information used to establish MWBE ownership/eligibility for Eastern Building & Restoration actually belonged to, and was controlled by, the person claimed as the certified MWBE principal.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-ogs-2014-01",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "OGS engineer-in-charge approved fraudulent reimbursements on contracts he was responsible for overseeing",
+      "Official received over $50,000 in construction equipment and home-improvement materials as payment",
+      "Fictitious/inflated invoices submitted across 16 separate state-prison emergency-repair contracts",
+      "Labor-hour inflation used to pad billed amounts"
+    ],
+    "verification_gap": "No independent, arms-length reviewer outside the approving engineer-in-charge verified labor hours and invoiced amounts against actual work performed on the emergency-repair contracts before reimbursement was authorized.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-ogs-2011-01",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "False reimbursement claims submitted with altered invoices",
+      "Claimed rental fees for equipment the company already owned",
+      "Pattern repeated across 10 contracts over three years",
+      "Emergency-work designation used for the fraudulent claims"
+    ],
+    "verification_gap": "No verification matched claimed equipment-rental invoices against the contractor's own equipment-ownership records before reimbursing the rental fees.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nypa-2015-delaney",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Fraudulent certified payroll statements submitted to NYPA",
+      "Billed for employees who performed no work",
+      "Scheme ran under a five-year, $3M landscaping/maintenance contract",
+      "Filed a tax return substantially understating income from the scheme"
+    ],
+    "verification_gap": "NYPA did not cross-check certified payroll submissions against independent proof of employee presence (e.g., site logs or time records) to confirm the listed workers actually performed the billed hours.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nypa-2016-sheridan",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "NYPA insider overseeing the contract helped the contractor bill for non-existent employees",
+      "Insider personally diverted worker wages and concealed his own cut",
+      "False tax filings used to hide the concealed proceeds",
+      "Scheme required coordination among three co-defendants and Over Rock Construction"
+    ],
+    "verification_gap": "NYPA had no independent check ensuring the contract-overseeing insider was not personally profiting from the certified-payroll submissions he was responsible for reviewing and approving.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-omh-2009-01",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Maintenance supervisor personally selected contractors and gathered bids for OMH work",
+      "Accepted bribes from a contractor to rig bids on seven projects",
+      "Sister with administrative access allegedly assisted the scheme",
+      "Scheme spanned multiple projects (2004-2006) at Manhattan Psychiatric Center"
+    ],
+    "verification_gap": "No segregation of duties separated the employee who solicited and gathered competing bids from the decision on which contractor was ultimately awarded the work, letting one person control both sides of the bid process.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-dec-2016-01",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "DEC project manager used his oversight authority to solicit money for electrical work",
+      "Diverted solicited funds through shell companies he personally controlled",
+      "Separately orchestrated a fraudulent bank loan through a contractor",
+      "Multiple forgery and grand larceny counts alongside the solicitation conduct"
+    ],
+    "verification_gap": "DEC had no independent check on whether its own oversight official held an undisclosed financial interest in companies receiving project-related payments he personally solicited.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dasny-2019-nichter",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Falsely certified a minority-owned firm performed $43,807 of plumbing/electrical work",
+      "Non-MWBE companies actually performed the work",
+      "MWBE firm paid a fee solely to pass through the paperwork",
+      "False instrument filing used to document the fictitious MWBE participation"
+    ],
+    "verification_gap": "DASNY did not verify, through site records or direct confirmation of who performed the plumbing/electrical work, that the certified MWBE firm actually supplied the labor it was credited with.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dasny-2019-coler",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "IG found MWBE documentation may have been altered",
+      "Subcontractor's role was mischaracterized to inflate MWBE credit",
+      "Prime contractor claimed MWBE credit it wasn't entitled to",
+      "IG recommended DASNY adjust the MWBE utilization credits"
+    ],
+    "verification_gap": "DASNY did not independently verify the submitted MWBE documentation and the subcontractor's actual scope of work against the credit claimed before applying it toward MWBE utilization goals.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-dasny-2024-scottlawn",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "DMYLES (MBE subcontractor) was never actually involved in furnishing/installing the granite seat-wall",
+      "Totaro Inc. performed all the real work",
+      "DMYLES collected a 5% pass-through fee for no commercially useful function",
+      "Scott Lawn Yard claimed MWBE credit it hadn't earned"
+    ],
+    "verification_gap": "DASNY had no mechanism confirming DMYLES performed a commercially useful function on site, rather than merely invoicing a fee, before crediting the prime contractor with MWBE participation.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dasny-2024-javen",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Same pass-through pattern as the Scott Lawn Yard case, published the same day",
+      "DMYLES again functioned as a pass-through MBE subcontractor",
+      "Prestige Countertops actually performed the bathroom-rehab work",
+      "Javen Construction claimed MWBE credit for work the credited firm did not do"
+    ],
+    "verification_gap": "DASNY lacked a repeatable check to confirm that a subcontractor already implicated in a prior pass-through finding (DMYLES) was performing real, commercially useful work rather than passing through invoices on a second project.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dasny-2024-seabreeze",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Invoices submitted to DASNY had been doctored to inflate billed amounts",
+      "Inflation totaled $33,000 across three separate billing cycles",
+      "Scheme ran over several months (Oct 2022-Jan 2023) before detection"
+    ],
+    "verification_gap": "DASNY's invoice-review process caught the doctored invoices before full reimbursement, but no upfront verification of underlying billing documentation existed to prevent doctored invoices from being submitted across three cycles in the first place.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dot-2019-s",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Concealed that required bridge-sealing chemicals were never purchased",
+      "Billed NYSDOT for $1.9M+ in contract work despite the non-performance",
+      "Scheme ran across federally funded contracts since 2010",
+      "Wire and mail fraud charges reflect the fraudulent billing"
+    ],
+    "verification_gap": "NYSDOT did not verify contractor purchase/delivery records for the required bridge-sealing chemicals against amounts billed before paying for the sealing work.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-suny-2026-final",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Case centers on the SUNY Polytechnic/Fort Schuyler 'Buffalo Billion' procurement scheme",
+      "Wire fraud conspiracy charges against developer executives and the SUNY Poly official",
+      "Original convictions vacated and required new, narrower plea agreements nine years later",
+      "Large forfeiture ($1.6M) tied to the procurement-related conduct"
+    ],
+    "verification_gap": "The Fort Schuyler/SUNY Poly RFP process had no independent check preventing an insider from shaping request-for-proposal criteria to favor pre-selected developers before bids were solicited.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-percoco-2018-01",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Bribes disguised as his wife's low-show job at an energy company",
+      "Payments funneled through COR Development, a developer with pending state business before him",
+      "Used influence over state economic-development decisions in exchange for payments",
+      "Expedited delayed state funding to COR in exchange for the bribes"
+    ],
+    "verification_gap": "The Executive Chamber had no disclosure/verification process to catch a senior aide's household receiving undisclosed compensation (a spouse's job) from entities with pending state economic-development decisions before him.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-cuny-2026-01",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Falsified subcontractor change orders submitted as billing support",
+      "Inflated payment requests submitted across at least four public projects",
+      "Scheme ran roughly five years (Dec 2017-Dec 2022) before resolution",
+      "Resolved via $1.5M forfeiture deferred-prosecution agreement rather than a straight prosecution"
+    ],
+    "verification_gap": "CUNY/York College did not independently verify submitted subcontractor change orders against actual subcontractor work and agreements before approving the inflated payment requests.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2020-patel",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "Program manager secretly operated a shell consulting company registered in his children's names",
+      "Company operated while he ran the same Superstorm Sandy contracts it stood to benefit from",
+      "Deleted evidence and coached witnesses to lie once investigated",
+      "A later OIG report found the same shell company received a no-bid subcontract from a vendor with undisclosed ties to in-house consultants"
+    ],
+    "verification_gap": "MTA had no beneficial-ownership disclosure check on vendors/consultants that would have flagged the program manager's undisclosed financial interest in a company tied to contracts he personally ran.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2023-nepotism",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "34-year construction manager steered contract oversight to benefit family members",
+      "Nephew with no construction experience placed as safety supervisor on a $14.6M renovation",
+      "Brother employed by the contractor on a separate $3.9M roof-repair contract",
+      "Neither family relationship was disclosed"
+    ],
+    "verification_gap": "MTA had no conflict-of-interest disclosure check cross-referencing contract-oversight staff's family members against personnel placed on, or employed by vendors on, the same contracts.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2020-overtime",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Five employees claimed hundreds of overtime hours never actually worked",
+      "One employee was bowling while purportedly on duty",
+      "Another was on vacation during claimed overtime hours",
+      "Scheme was detected only via cell-location data, badge-swipe records, and third-party evidence"
+    ],
+    "verification_gap": "MTA had no routine cross-check of claimed overtime hours against independent attendance data (badge swipes, location records) at the time hours were submitted, relying instead on after-the-fact investigation to catch the fabricated hours.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2013-kleinberg",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Falsely reported DBE participation on the Fulton St. Transit Center project",
+      "Paid the DBE firm commissions rather than assigning it real subcontract work",
+      "Second-tier DBE (J&R Rey) functioned as a pass-through rather than a working subcontractor"
+    ],
+    "verification_gap": "MTA/DOT did not verify that the reported DBE subcontractor (J&R Rey) was performing a commercially useful function on-site rather than simply receiving a commission for the use of its certification.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2019-ahern",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Non-DBE subcontractor's (Spectrum) employees were misrepresented as certified DBE (Tower) employees",
+      "Scheme ran across two separate MTA/DOT-funded steel-painting jobs",
+      "Certified DBE credit was claimed for work performed by a non-certified firm's workforce"
+    ],
+    "verification_gap": "MTA/DOT had no process to verify that workers reported under the certified DBE's payroll on the steel-painting jobs were actually employed and directed by that DBE firm rather than by the uncertified subcontractor.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-mta-2021-tower",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Tower Maintenance Corp. (the certified DBE) settled for falsely certifying it performed disguised work",
+      "Part of the same three-party Ahern/Spectrum/Tower scheme",
+      "Same MTA/DOT steel-painting projects as the Ahern case"
+    ],
+    "verification_gap": "MTA/DOT relied on the certified DBE's own self-certification of performance without independently confirming Tower actually supplied the labor it certified on the steel-painting jobs.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-mta-2021-spectrum",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Spectrum (the non-DBE firm) actually performed the disguised painting work",
+      "Settled its own liability in the same three-party DBE scheme as Ahern and Tower",
+      "Same MTA/DOT-funded projects as the related Ahern and Tower settlements"
+    ],
+    "verification_gap": "MTA/DOT had no check confirming which firm's employees physically performed the steel-painting work, allowing the non-DBE performer's labor to be credited to the certified DBE instead.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-mta-2015-granite",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Roughly $22M in work funneled through a DBE front company",
+      "Front company did no actual work on the Maspeth bus depot project",
+      "False DBE compliance reported to MTA over a four-year period (2004-2008)",
+      "Resulted in over $8 million in forfeiture and penalties"
+    ],
+    "verification_gap": "MTA did not verify that the DBE-credited entity was performing real, commercially useful work on the Maspeth bus depot project rather than simply lending its certification to a compliance report.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2018-lokhandwala",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Solicited bribes from two contractors in exchange for steering subway construction work",
+      "Threatened to bar contractors from future work if bribe payments stopped",
+      "Concealed bribe proceeds via shell accounts",
+      "Scheme ran for six years (2009-2015) before detection"
+    ],
+    "verification_gap": "MTA/NYCTA had no independent oversight verifying that the Construction Project Administrator's work-steering decisions were free of personal financial inducements from the contractors he oversaw.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2022-berlangero-s",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Contract manager leaked confidential pricing information to a vendor",
+      "More than $10M in contracts steered to a single vendor (WRS)",
+      "Contract manager received over $70,000 in kickbacks",
+      "Vendor's owner required to sell the company as part of his plea",
+      "A third individual (Willis) also received probation, indicating a multi-party scheme"
+    ],
+    "verification_gap": "Metro-North had no firewall separating staff with access to confidential bid/pricing data from those able to influence vendor selection, so pairing that access restriction with periodic review of contract-award concentration by vendor would have caught the steering before $10M was committed.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-mta-2026-rocco",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Certified payrolls showed full prevailing wages while workers were required to kick back roughly 22% in cash",
+      "13 workers were required to participate in the kickback scheme",
+      "Workers were threatened with reduced hours or termination for refusing to kick back wages",
+      "Scheme ran for over four years (Sept. 2020-Dec. 2024) across 9 MTA contracts"
+    ],
+    "verification_gap": "The MTA never cross-checked certified payroll filings against independent evidence of what workers actually received, such as confidential wage interviews or bank-deposit verification, so the gap between the paper-perfect certified payrolls and the real cash-kickback arrangement went undetected for over four years.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-sca-2016-nadeem-sentenced",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Prevailing-wage fraud paired with bribery, money laundering, and illegal structuring",
+      "A union shop steward separately pleaded guilty to taking bribes to look the other way",
+      "Contractor ordered to forfeit $7.1M, indicating the scale of concealed proceeds",
+      "$1.3M in restitution ordered to the IRS points to underlying tax fraud alongside the wage fraud"
+    ],
+    "verification_gap": "SCA and the union relied on the shop steward as the front-line check on certified payroll compliance with no independent, bribe-resistant audit behind him, so once he was paid to look away, falsified certified payrolls passed unchallenged for years.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-sca-2020-kumar",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Certified prevailing-wage compliance filed while workers were being underpaid",
+      "Scheme spanned four years (2014-2018) on SCA school projects",
+      "Restitution, forfeiture, and a separate payment to SCA were ordered, indicating documented underpayment records existed"
+    ],
+    "verification_gap": "SCA had no way to independently verify certified payroll submissions against actual wages paid, such as surprise worker interviews or matching payroll records to bank deposits, letting falsified certifications stand unchallenged for four years.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-doe-2025-temco",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Payroll records allegedly used fake names and omitted real workers",
+      "Wages inflated on paper while undocumented workers were allegedly paid cash below scale",
+      "One defendant allegedly told employees to destroy evidence",
+      "Scheme allegedly touched over $13.5M in public-school repair contracts"
+    ],
+    "verification_gap": "DOE had no process to verify that names listed on certified payrolls corresponded to real, identifiable workers on site, such as ID checks matched against payroll rosters during site visits, so a roster padded with fictitious names and missing real workers went unchecked.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-scanycha-2016-final",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Wage kickback scheme spanned both SCA and NYCHA projects",
+      "General contractor Dean Builders paid over $200,000 in restitution for wage underpayment",
+      "Singh brothers received a 5-year public-contract ban, indicating deliberate wage theft rather than a bookkeeping error"
+    ],
+    "verification_gap": "Neither SCA nor NYCHA cross-verified certified payroll filings from labor brokers against direct worker pay records, letting wage kickbacks on public housing and school sites go undetected until a separate investigation surfaced them.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-nycha-2024-harris",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Superintendent convicted of bribery and extortion tied to repair-contract approvals",
+      "Bribes collected worth about 10% of each repair contract's value, a consistent kickback rate",
+      "One of 70 NYCHA superintendents charged in the same February 2024 sweep, indicating a systemic pattern",
+      "Scheme spanned 4 NYCHA developments over 2015-2021"
+    ],
+    "verification_gap": "NYCHA had no requirement that repair-contract approvals be countersigned or randomly audited by someone other than the single superintendent who both authorized the work and selected the vendor, letting one person extract a fixed bribe percentage undetected for years.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2025-final",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "70 separate NYCHA employees convicted in the same bribery/extortion sweep",
+      "Roughly $15M in NYCHA repair contracts affected across the citywide scheme",
+      "$2.1M in restitution and $2M in forfeiture ordered, indicating extensively documented bribe proceeds",
+      "56 felony pleas, 11 misdemeanor pleas, and 3 trial convictions show the scheme was decentralized across many individual actors"
+    ],
+    "verification_gap": "NYCHA lacked a centralized, independently monitored authorization process for repair-contractor selection at the development level, letting dozens of superintendents each independently extract bribes on small repair-contract awards with no cross-development detection mechanism.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dep-2018-dandb",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "DEP manager leaked confidential city procurement information to engineering firms",
+      "Payments took the form of gifts and subcontracts rather than direct cash",
+      "D&B's roughly $1.8M in subcontracts were routed to entities the DEP official secretly controlled",
+      "Resolved via a deferred prosecution agreement with an integrity monitor imposed on D&B"
+    ],
+    "verification_gap": "DEP had no requirement for procurement staff to disclose financial interests in subcontracting entities receiving city-funded work, so a manager could route subcontracts to companies he secretly controlled without any conflict-of-interest disclosure check flagging the connection.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-dep-2020-chlupsa-dismissed",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Original charges were pay-to-play bribery/corruption, 5 counts",
+      "Case was tied to the same D&B/DEP procurement-leak scheme",
+      "Conviction was ultimately vacated and dismissed, citing mishandled evidence and pandemic-era court constraints"
+    ],
+    "verification_gap": "The case record shows a downstream evidentiary failure rather than a missing agency control: even where an investigation identified alleged pay-to-play payments, the prosecution's evidence-handling process failed to preserve proof strong enough to sustain the bribery conviction, so no verification step within DEP itself is confirmed by this outcome either way.",
+    "confidence": "Low"
+  },
+  {
+    "case_id": "ny-dep-2014-schlesinger",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Falsely certified that a licensed Master Electrician supervised code-required work",
+      "Unlicensed personnel actually performed the supervised work",
+      "Over $200M in NYC water-infrastructure contracts secured under the false certification",
+      "False instrument filing charge confirms fabricated certification documents were submitted"
+    ],
+    "verification_gap": "DEP never independently verified that the specific licensed Master Electrician named in supervision filings was actually present on site performing or overseeing the code-required work, letting a paper certification substitute for real licensed supervision across two major capital projects.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dep-2022-djurasevic",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Program manager took roughly $500,000 in bribes from a subcontractor over five years",
+      "Bribes were exchanged for allowing overbilling on repair work",
+      "Signed off on incomplete or unperformed repairs",
+      "Managed a Water Board program covering sewer/water lateral repairs for homeowners"
+    ],
+    "verification_gap": "The NYC Water Board had no independent field verification, such as homeowner sign-off or third-party inspection, confirming that lateral repairs billed as complete had actually been performed before Djurasevic's sign-off was accepted as sufficient proof of completion.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-nycdot-2008-01",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Two DOT officials leaked the City's confidential negotiating position to a contractor",
+      "Bribes of $60,000 and $5,000 were paid to the two officials",
+      "Leaked information was used to steer a roughly $16.5M contract-claim settlement favorably to the contractor"
+    ],
+    "verification_gap": "DOT had no segregation between the officials who held the City's confidential settlement negotiating position and those permitted to interact with the contractor's negotiators, so bribed officials could hand that position to the other side undetected.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2015-tishman-overbilling",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Decade-long (1999-2009) scheme of padding client bills with unworked 'guaranteed' overtime",
+      "Billed for absent employees",
+      "Charged above-contract rates",
+      "Paid over $20.2 million combined in restitution and penalties"
+    ],
+    "verification_gap": "The Port Authority never reconciled Tishman's billed labor hours, including the 'guaranteed' overtime, against independent timekeeping or site-attendance records, allowing a decade of padded and absent-employee billing to go unchallenged.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2016-padover-arbor-concrete",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "136 felony counts stemmed from submitted certified payroll records",
+      "Falsely claimed $268,056 in union benefits had been paid to workers",
+      "Benefits certified as paid were never actually disbursed to the union funds"
+    ],
+    "verification_gap": "The Port Authority had no process to verify directly with the union benefit funds that the contributions certified as paid on Padover's payroll filings had actually been received, letting falsely certified benefit payments go unverified across 136 counts.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2016-dcm-erectors-mwbe",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Falsely represented that certified minority/women-owned subcontractors performed steel-decking and surveying work",
+      "DCM Erectors actually performed the work itself",
+      "Paid front-entity principals to look the other way",
+      "Conviction later vacated, with the court finding no proof the M/WBE misrepresentation caused economic harm"
+    ],
+    "verification_gap": "The Port Authority's M/WBE compliance monitoring had no on-site verification that the certified minority/women-owned firms listed on the contract were the ones actually performing the steel-decking and surveying work, allowing DCM to self-perform while paying the front entities to sign off.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2017-crimson-vertuccio",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Secretly controlled Crimson Construction while concealing that control from the Port Authority",
+      "Concealed ties to the Bonanno organized-crime family",
+      "Diverted over $1.5 million of contract proceeds for personal use",
+      "Crimson ultimately failed its contract obligations and was terminated"
+    ],
+    "verification_gap": "The Port Authority's contractor-integrity vetting had no mechanism to verify the true beneficial ownership and control of Crimson Construction beyond its nominal officers, so Vertuccio's concealed control and organized-crime ties went undetected until the company defaulted.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "panynj-2016-samson-chairmans-flight",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Board Chairman had a proposed capital-construction agreement pulled from the board agenda",
+      "Agenda item restored only after United reinstated a money-losing nonstop route for his personal convenience",
+      "United separately paid a $2.25 million penalty tied to the same conduct"
+    ],
+    "verification_gap": "The Port Authority board had no process requiring the chairman to recuse from or disclose personal interest in agenda decisions involving a vendor providing him a direct personal benefit, letting one chairman unilaterally control the timing of a tenant's capital-agreement approval.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2019-wtc-hatzel-buehler",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Manager accepted roughly $17,000 in tickets, golf trips, and car service",
+      "Received confidential bid/budget information and preferential treatment in exchange",
+      "Unqualified electricians were hired through personal connections",
+      "Unqualified hires created safety hazards while being paid $1.26 million total from Port Authority funds"
+    ],
+    "verification_gap": "Cushman & Wakefield and the Port Authority had no gift-disclosure or bid-information access log for the manager overseeing WTC electrical work, so repeated non-cash gifts tied to confidential budget disclosures went unflagged until charged criminally.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2021-vja-overbilling",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Systematically inflated invoices on time-and-expense contracts from 2013-2018",
+      "Billed more hours than employees actually worked",
+      "Scheme surfaced only through a whistleblower qui tam suit, not agency detection",
+      "Accepted a five-year debarment from NY public contracts as part of the settlement"
+    ],
+    "verification_gap": "The MTA, Port Authority, and SCA had no process reconciling VJA's billed inspector hours against independent time records such as badge or site logs on time-and-expense contracts, letting five years of inflated billing go undetected until an insider filed a qui tam suit.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2023-newark-restroom-committee",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Selection committee members received free home renovations, electronics, and jewelry",
+      "Bribes exchanged for votes awarding the renovation contract to a specific contractor",
+      "Helped the contractor fraudulently inflate change orders to recoup the cost of the bribes",
+      "Contract awarded by a tenant airline within its own leased terminal space, outside direct Port Authority award control"
+    ],
+    "verification_gap": "The tenant airline's contractor-selection committee had no conflict-of-interest disclosure or gift-reporting requirement for members voting on contract awards, and change orders were not independently verified against actual scope changes, letting bribe-driven selection and inflated change orders both go unchecked.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2025-newark-restroom-vendor",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Employee influenced contract awards including a $19.7M restroom-renovation contract",
+      "Received over $1M in payments for steering contracts",
+      "Fraudulent invoices were submitted for non-existent dispatcher services",
+      "Continuation of the same Newark Airport contractor-bribery scheme as the 2023 pleas"
+    ],
+    "verification_gap": "There was no independent verification that services billed for, such as the dispatcher services, were actually rendered before payment, allowing fraudulent invoices for non-existent work to serve as a channel for kickback payments tied to contract-steering.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "njdot-2015-eagle-rock-metellus",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Suspended NJDOT senior engineer solicited a railway company to submit false invoices",
+      "Invoices inflated the bridge rehabilitation cost by roughly $700,000",
+      "Split $325,000 in resulting bribes with a middleman",
+      "Stripped of his state pension and barred from public employment upon sentencing"
+    ],
+    "verification_gap": "NJDOT had no independent engineering review comparing invoiced costs on the Eagle Rock Bridge rehabilitation against a neutral engineer's cost estimate, letting a single senior engineer solicit and approve a $700,000 invoice inflation without cross-check.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "njdot-2015-eagle-rock-dubose",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Attorney acted as middleman soliciting $325,000 in bribes tied to the same Eagle Rock scheme",
+      "Bribes were funded by a $700,000 inflation of the bridge project's cost",
+      "Convicted at trial of conspiracy, bribery, and fraud"
+    ],
+    "verification_gap": "NJDOT had no process flagging unusual third-party involvement, such as an outside attorney brokering payments, in grant-funded invoice approvals, allowing a middleman to broker the kickback split from an inflated invoice undetected.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "njdot-2012-tarheel-routes1-9",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Owner paid roughly $48,000 in cash bribes to a NJDOT engineer",
+      "Bribes paid specifically to help win a $44 million NJDOT road-work contract",
+      "Charged with both bribery and bid-rigging",
+      "Pleaded guilty mid-trial to one count"
+    ],
+    "verification_gap": "NJDOT had no separation between the engineer receiving personal cash payments from a bidder and the individuals scoring or awarding the Routes 1 & 9 contract, so a bribed engineer could help steer the $44 million award without an independent, bribe-blind evaluation check.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "njdot-2022-abbonizio-direct-connection",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Used two shell entities as pass-through disadvantaged business enterprises",
+      "Placed magnetic DBE-firm signs on fuel trucks to simulate DBE participation",
+      "Falsely claimed DBE credit on a $39 million NJDOT subcontract",
+      "Settled for $400,000 with no admission or determination of liability"
+    ],
+    "verification_gap": "NJDOT never verified that the certified DBE firms actually owned/operated the trucks and performed independent trucking work (a commercially-useful-function check), rather than accepting magnetic-sign branding on Abbonizio's own fleet as proof of DBE participation.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "drpa-2012-osc-capital-funds",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Insurance brokers funneled over $1.5 million in commissions among themselves",
+      "Payments made to a firm that 'did no work for the DRPA'",
+      "No documentation of services performed to support the commission payments",
+      "Broker selection was not competitively bid prior to the report",
+      "DRPA spent ~$440 million on economic development despite a charter mandate to prioritize bridge/capital maintenance"
+    ],
+    "verification_gap": "DRPA had no requirement that broker commission splits be tied to a documented, competitively bid scope of work, so a firm could be paid a share of insurance commissions without ever having to show what services it actually performed.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "nj-scc-2005-ig-report",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "No dedicated CFO overseeing SCC finances",
+      "Only one accountant reviewing nearly all operating expenses",
+      "$67 million in 'questionable' land payments to local governments",
+      "$328.8 million spent on land acquisition with weak financial review"
+    ],
+    "verification_gap": "SCC lacked a segregation-of-duties structure (a dedicated CFO plus independent second-level review) that would have required questionable land payments to be substantiated and approved before disbursement rather than passing through a single accountant's review.",
+    "confidence": "Low"
+  },
+  {
+    "case_id": "nj-scc-2005-monahan-cm3-forgery",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Allegedly altered an SCC prequalification notice",
+      "Allegedly altered a state Treasury classification form",
+      "Charged with forgery and tampering with public records",
+      "Used the altered documents to obtain a Hamilton Township school construction contract"
+    ],
+    "verification_gap": "SCC did not independently confirm submitted prequalification notices and Treasury classification forms against the issuing agencies' own records, allowing an altered document to be accepted at face value to win the contract.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-scc-2006-bana-edison-embezzlement",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Collected payments intended for six subcontractors on nine SCC-funded Edison projects",
+      "Withheld nearly $1 million owed to those subcontractors",
+      "Falsely certified that subcontractors had been paid",
+      "Sentenced with $106,000 restitution and debarment from NJ public works"
+    ],
+    "verification_gap": "SCC had no independent confirmation (e.g., subcontractor lien waivers or sign-offs) cross-checked against the prime contractor's payment certifications before releasing further draw payments, letting Bana certify subcontractors as paid when they were not.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "nj-scc-2006-rullo-megan-group",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Received $1,486,325 in payments on SCC-funded school projects in three districts",
+      "Failed to pay subcontractors for work covered by those payments",
+      "Indicted for money laundering and misapplication of entrusted property",
+      "No later disposition of the indictment could be located"
+    ],
+    "verification_gap": "There was no mechanism requiring proof that progress payments received by the general contractor had actually flowed through to subcontractors before further payments were authorized on the same projects.",
+    "confidence": "Low"
+  },
+  {
+    "case_id": "nj-sda-2020-sci-part1-patronage",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "Fired 15 long-tenured SDA employees shortly after taking office",
+      "Hired friends and relatives into high-paying roles within nine months",
+      "Some hires lacked basic qualifications for their positions",
+      "Cost over $2.7 million in new salaries"
+    ],
+    "verification_gap": "SDA had no independent HR/ethics vetting step requiring new hires to be screened against the hiring executive's personal relationships and matched to posted qualifications before appointment.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-sda-2021-sci-part2-oversight",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Nine different CEOs over two decades at SDA",
+      "Unreliable contractor performance reviews despite documented safety issues",
+      "SDA-built schools cost 16-24% more than comparable district-run projects",
+      "Seven-years-unresolved HVAC failure at Egg Harbor City Middle School",
+      "Fifteen-years-nonfunctional fire suppression system at Newark Science Park High School"
+    ],
+    "verification_gap": "SDA lacked a reliable contractor performance-review and payment-holdback process that would have tied final payment/change-order approval to verified correction of known defects like the HVAC and fire-suppression failures.",
+    "confidence": "Low"
+  },
+  {
+    "case_id": "nj-egg-harbor-2023-charter-bidrig",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "School founder was also board president approving the contract",
+      "Split a $115,000 contract into two pieces to avoid public-bidding requirements",
+      "Steered the contract to the founder's own company, Modern Boat Works",
+      "Project was left unfinished"
+    ],
+    "verification_gap": "Principle Academy had no conflict-of-interest recusal process requiring the board president to disclose and abstain from voting on a contract awarded to his own company, and no threshold check flagging a single project artificially split into two sub-$100K pieces.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-hillsborough-2026-kickback",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Site supervisor submitted inflated overtime timesheets",
+      "Business administrator approved the inflated timesheets",
+      "Approvals made in exchange for roughly $70,000 in cash kickbacks",
+      "Scheme ran on a multimillion-dollar 2019-referendum facilities-upgrade project"
+    ],
+    "verification_gap": "The district had no independent, arms-length review of submitted overtime timesheets (e.g., a supervisor other than the one financially benefiting) before the business administrator's approval authorized payment.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "nj-camden-2024-norcross-dismissed",
+    "archetype": "Tax-Incentive or Economic-Development Abuse",
+    "red_flags": [
+      "Alleged use of threats and political pressure to seize control of redevelopment properties",
+      "Properties were incentivized through NJEDA tax credits",
+      "Original charges included racketeering, theft by extortion, and official misconduct",
+      "Indictment was dismissed by a Superior Court judge and the appeal and case were later dropped"
+    ],
+    "verification_gap": "There was no independent, arms-length review process for changes in control over NJEDA tax-credit-incentivized redevelopment properties that could have distinguished legitimate business dealings from control obtained through political pressure -- and ultimately the courts found the alleged conduct did not meet the legal standard for extortion/coercion.",
+    "confidence": "Low"
+  },
+  {
+    "case_id": "nj-camden-2024-holtec-taxcredit",
+    "archetype": "Tax-Incentive or Economic-Development Abuse",
+    "red_flags": [
+      "Backdated documents to falsely claim a required joint investment",
+      "Investment was needed to meet a required condition of the Angel Investor Tax Credit Program",
+      "Exceeded the program's per-investor investment cap",
+      "Agreed to pay $5 million penalty and forfeit $1 million in tax credits",
+      "Entered a three-year deferred prosecution agreement requiring independent review of future applications"
+    ],
+    "verification_gap": "NJEDA did not independently verify the dating and authenticity of investment documentation against the Angel Investor Tax Credit Program's per-investor cap before approving the credit, allowing backdated paperwork to satisfy the program requirement on paper only.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-hoboken-2010-cammarano",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Accepted $25,000 in bribes weeks after taking office",
+      "Payment came from a cooperating witness posing as a developer",
+      "Bribe was exchanged for promised assistance on future redevelopment projects",
+      "Part of the federal 'Operation Bid Rig III' sting"
+    ],
+    "verification_gap": "There was no independent ethics-disclosure or FBI-style transactional check on the mayor's dealings with developers, so a cash-for-future-favors arrangement could be struck privately with no contemporaneous record until the sting captured it.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-jerseycity-2010-vega",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Accepted $30,000 from an FBI cooperating witness posing as a developer",
+      "Payment made in exchange for future assistance on the developer's projects",
+      "Pleaded guilty to conspiracy to commit extortion",
+      "Another conviction from the July 2009 Operation Bid Rig III sting"
+    ],
+    "verification_gap": "No independent disclosure or review process existed to catch a council president privately agreeing to help a developer's projects in exchange for cash before any project ever came to a public vote.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-jerseycity-2010-beldini",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Accepted $20,000 in illicit campaign contributions from a cooperating witness",
+      "Contributions exchanged for using her official position to help a redevelopment project",
+      "Convicted by a federal jury (only Bid Rig III defendant to go to trial)"
+    ],
+    "verification_gap": "Campaign contributions tied to specific redevelopment favors were not screened or disclosed through any conflict-of-interest process, letting cash-for-influence flow through the campaign-finance channel undetected until the FBI sting.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-passaic-2016-blanco",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Extorted $110,000 from two developers of an affordable housing project",
+      "Told developers payments were needed 'to ensure the project would proceed'",
+      "Demanded payments even after city approvals were already granted",
+      "Sentenced to 27 months and ordered to pay $110,000 restitution; resigned as mayor"
+    ],
+    "verification_gap": "There was no independent check flagging that a mayor was demanding payments from developers for a project that had already received its official approvals, which would have shown the money had no legitimate approval purpose.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-trenton-2014-mack",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Directed officials to price a city-owned lot well below its proposed value",
+      "Sale was arranged to benefit a cooperating witness's parking garage development",
+      "Cash bribes exchanged for the below-market deal",
+      "Convicted of extortion, bribery, and mail/wire fraud; sentenced to 58 months"
+    ],
+    "verification_gap": "The city had no independent appraisal-verification or arms-length review requirement for sales of city-owned land that would have flagged a mayor-directed price cut below proposed value before the sale closed.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-westfield-2011-disko",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Nine-year scheme directing contractors to submit fraudulently inflated and rigged quotes",
+      "Scheme spanned school construction/repair projects in three NJ districts",
+      "Engineer received over $80,000 in kickbacks for steering the rigged quotes",
+      "Co-defendant contractors and a school business administrator also charged with related bribes"
+    ],
+    "verification_gap": "Districts relied on the engineer himself to solicit and compare contractor quotes with no independent cross-check of quote patterns across projects, letting the same engineer orchestrate collusive pricing among the same pool of contractors for nine years.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-newark-2026-garcia",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Accepted cash and luxury jewelry bribes from two businessmen",
+      "Bribes exchanged for help obtaining city-approved redevelopment agreements",
+      "Used position as Deputy Mayor/Director of Economic and Housing Development to facilitate acquisition of city-owned properties",
+      "Sentenced to 12 months and one day in prison"
+    ],
+    "verification_gap": "There was no independent, disclosed-gifts review for the city official negotiating redevelopment agreements, allowing cash and jewelry to be exchanged privately for help acquiring city-owned properties without triggering any conflict check.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-unioncity-2012-venegas",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Agreed to bribe a Union City government employee for zoning approval",
+      "Paid roughly $14,000 in cash",
+      "Agreed to arrange a further $15,000-$20,000 in additional bribes",
+      "Pleaded guilty to the bribery scheme"
+    ],
+    "verification_gap": "There was no independent, documented review path for zoning/construction approvals that would have made a direct cash payment to the reviewing employee unnecessary or detectable before approval was granted.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-osc-monroecounty-bidrigging-2016",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Elaborate bid-rigging conspiracy involving a former county CIO and Water Authority Security Director",
+      "Steered a $99 million IT infrastructure contract to a favored company",
+      "Steered a $212 million public safety/security systems upgrade contract to a favored company",
+      "All four defendants convicted via guilty plea with restitution, fines, and pension forfeiture"
+    ],
+    "verification_gap": "Monroe County had no independent, arms-length evaluation of competing bids on the IT and security contracts separate from the officials (CIO and Security Director) who had relationships with the favored vendors, letting the same insiders control both the bid specifications and the award decision.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-osc-orangecounty-ida-corruption-2021",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "Managing Director used his own company, Galileo Technology Group, to control the IDA's Accelerator program",
+      "CEO and a board member received payments from the Managing Director's firm despite their oversight duties",
+      "Conflicts of interest were undisclosed",
+      "Fraudulent double-billing through an affiliated 'Accelerator Without Walls' program",
+      "All three pleaded guilty and were ordered to pay $1,265,000 in restitution"
+    ],
+    "verification_gap": "OCIDA had no conflict-of-interest disclosure and recusal requirement preventing the officials who oversaw the Accelerator program from personally receiving payments from the same private firm (Galileo Technology Group) that the Managing Director used to control that program.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-osc-ogs-construction-mgmt-mwbe-2021",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "State-certified WBE subcontractor subcontracted out all of its approved services",
+      "Actual work performed by a non-MWBE individual -- the spouse of the WBE principal in each case",
+      "In one instance that individual had previously been a vice president of the same winning construction management firm",
+      "$207,316 in improperly claimed MWBE participation credit quantified by the audit",
+      "Separately found $50,539 in unsupported MWBE credits and a $1.8 million award to a bidder that didn't meet stated RFP experience requirements"
+    ],
+    "verification_gap": "OGS did not verify that the certified WBE subcontractor was performing a genuine 'commercially useful function' itself (e.g., checking who actually staffed and invoiced the work) rather than passing 100% of its scope to a non-certified individual, including one with a prior undisclosed tie to the prime contractor.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-brooklynda-2016-dayan-eec-nycha",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Paid 27 workers $15-$25/hour against a required Davis-Bacon prevailing wage of $61.50-$82.31",
+      "Filed false certified payroll reports claiming full prevailing-wage payment",
+      "Instructed workers to lie to integrity monitors about their pay",
+      "Extracted up to $2,000 in kickbacks from workers who complained",
+      "Paid $650,000 in restitution to the 27 workers after guilty plea"
+    ],
+    "verification_gap": "NYCHA's integrity monitors relied on the contractor's own certified payroll filings rather than independently interviewing workers or auditing actual bank/paycheck records against the required prevailing-wage schedule, letting falsified certifications go unchallenged until workers came forward.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-brooklynda-2015-elchoum-ama-ps138k",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Paid an SCA project officer roughly $3,500 in cash across five occasions",
+      "Payments made to expedite contract payments",
+      "Payments made to limit SCA scrutiny of the project",
+      "Officer reported the first offer and cooperated in an undercover operation",
+      "Indicted on six counts of third-degree bribery"
+    ],
+    "verification_gap": "SCA had no rotation or independent second-reviewer requirement for the project officer handling payment processing and scrutiny on this contract, leaving a single point of contact who could be paid directly to expedite payments and dial back oversight.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-queensda-2022-singh-ps71",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Foreman required workers under his supervision to pay him $50 for each day worked as a condition of continued employment",
+      "Workers who refused to pay or complained were fired",
+      "Scheme ran for nearly a year (March 2019-February 2020) before detection",
+      "Charged under NY Labor Law \u00a7198-b (wage kickback statute) plus six grand larceny counts"
+    ],
+    "verification_gap": "SCA had no confidential worker reporting channel or independent, off-site worker pay interviews on the P.S. 71 project that could have surfaced a foreman collecting daily cash payments from his own crew outside the certified payroll record.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-queensda-2020-deol-laser-electrical",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Inflated reported hourly rates on certified payroll while paying workers less",
+      "Withheld required prevailing-wage benefits from 11 employees",
+      "Submitted hundreds of materially false certified payroll reports over four years (2014-2018)",
+      "Underpayment totaled over $1.5 million across concurrent SCA and DOE contracts"
+    ],
+    "verification_gap": "SCA/DOE did not cross-check certified payroll wage and benefit entries against workers' actual pay stubs, timecards, or direct worker interviews, letting hundreds of false certifications go unverified for four years.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nassauda-2025-unger-lawrence-ufsd-hvac",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Stopped paying the district's incumbent HVAC vendor to manufacture a false maintenance emergency",
+      "Invoked no-bid emergency-contracting rules to bypass competitive bidding",
+      "Shell company SDF Service Plus was formed by Unger and Greenblatt one month before it received the ~$2 million contract award",
+      "About $185,000 was laundered back to Unger through a second entity, Scott Mitchell Management",
+      "Proceeds used for a personal purchase (a 2024 Kia Telluride)"
+    ],
+    "verification_gap": "Lawrence UFSD had no process to independently confirm that an invoked contracting \"emergency\" was genuine, and no check of a newly-awarded no-bid vendor's incorporation date and ownership against the facilities director's own known contacts.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-suffolkda-2025-dealmeida-rl-concrete-longwood",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Misclassified five employees into lower-paying job categories on certified payrolls",
+      "Paid $22-$25/hour to workers entitled to $68-$198/hour",
+      "Omitted one employee from payroll records entirely",
+      "Underpaid workers by approximately $99,671 through the misclassification scheme"
+    ],
+    "verification_gap": "Longwood CSD did not independently verify the job classifications listed on R&L's certified payrolls against the actual work performed on-site or reconcile the payroll roster against the full on-site workforce, which let an entire worker go unlisted and others be systematically misclassified.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-hempstead-2024-bozier-vhha-bidrigging",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Recruited and directed co-conspirators to submit fraudulently inflated competing bids",
+      "Steered resulting contract awards to companies controlled by his own associates",
+      "A roof-replacement contract was billed at $273,900 for work that actually cost only $23,000",
+      "Personally received roughly $100,000 in kickbacks from the scheme",
+      "Over $800,000 in VHHA funds fraudulently diverted in total"
+    ],
+    "verification_gap": "VHHA had no independent cost estimate or market-rate bid comparison (which would have flagged the $273,900 bid for $23,000 of actual roofing work) and no check that ostensibly competing bidders were unaffiliated with the board chairman or with each other.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-sdny-2025-joseph-bwk-uniondale",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Falsified certified payroll documents on multiple Long Island public school-construction contracts",
+      "Obtained roughly $1.96 million in contract payments he was not entitled to",
+      "Charged with aggravated identity theft alongside the certified-payroll fraud",
+      "Simultaneously failed to remit approximately $3.65 million in employee and employer payroll taxes on about $10 million in BWK earnings"
+    ],
+    "verification_gap": "Neither the school districts nor tax authorities cross-matched the identities/details on BWK's certified payroll submissions against BWK's actual payroll-tax filings and deposits, letting falsified certifications draw contract payments while payroll taxes on those same claimed wages went unpaid for three years.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-sca-2005-sixofficers-bribery",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Two officers accepted about $40,000 combined for approving contractor payment requests",
+      "One officer solicited cash for approving fraudulent payment requests on a specific school contract",
+      "One officer sold confidential SCA bid estimates for cash",
+      "One officer demanded computer equipment worth about $10,000 in exchange for payment approvals",
+      "Officers accepted personal-residence work from contractors in exchange for approvals"
+    ],
+    "verification_gap": "SCA had no independent second sign-off or rotation policy on project officers' payment-approval authority and no control preventing a single officer from both approving contractor payments and accessing confidential bid estimates for sale.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-doe-2019-mangru",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Paid workers $120-$160/day for 40-50 hour weeks, far below prevailing wage",
+      "Submitted certified payrolls falsely claiming prevailing-wage compliance",
+      "Already debarred in a 2013 settlement for a smaller underpayment, then continued the same scheme under a new corporate name",
+      "Initial 2017 arrest alleged roughly $691,040 in total wage theft"
+    ],
+    "verification_gap": "NYCDOE had no debarment cross-check tying a principal's identity to new corporate registrations, allowing Mangru to re-enter public-school contracting under a renamed company (Vick Construction) after his prior debarment.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-multi-2017-msr-riglietti",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Certified payroll reports claimed $54/hour plus $40.16-$51.86 in benefits paid to workers",
+      "Workers were actually paid only $13.50-$25/hour with no overtime or benefits",
+      "Scheme spanned 13 SCA schools, an OGS psychiatric facility, and 5 MTA sites over three years",
+      "Stole over $700,000 from workers across multiple public agencies simultaneously"
+    ],
+    "verification_gap": "None of the three agencies (SCA, OGS, MTA) cross-verified MSR's certified payroll wage/benefit figures against actual worker pay records or shared findings with each other, letting the same contractor run an identical underpayment scheme across 19 separate public-works sites.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2022-lintech",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Failed to pay required prevailing wage and supplemental-benefit rates to over 200 workers",
+      "Scheme ran citywide across all five boroughs for three years (2015-2018) before an investigation was opened",
+      "Required to repay nearly $900,000 in back wages, benefits, interest, and penalties",
+      "Financial guarantors had to help cover restitution to workers"
+    ],
+    "verification_gap": "NYCHA had no periodic audit of scaffolding-subcontractor pay records against actual worker interviews on its citywide maintenance contracts, allowing systematic prevailing-wage underpayment to go undetected across all five boroughs for three years.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-cuny-2014-r3electrical",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Underpaid workers below the legally required prevailing wage on multiple concurrent public-works contracts",
+      "Filed false certified payroll reports to conceal the underpayment",
+      "Scheme spanned five CUNY college campuses plus a NYPA-funded NYCHA project",
+      "Restitution ordered of $273,943.66"
+    ],
+    "verification_gap": "CUNY/NYPA had no independent verification of R3's certified payroll filings against workers' actual timecards or wage receipts across the multiple concurrent contracts, letting the false filings stand until a separate AG investigation uncovered them.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-amsterdam-2016-squires-ida",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Altered workers'-compensation exemption forms to falsely claim the company had no employees requiring coverage",
+      "Won the bid at about one-third of the next-highest bid, consistent with an unfair cost advantage from evading workers'-comp costs",
+      "Charged with criminal possession of a forged instrument, offering a false instrument for filing, and forgery"
+    ],
+    "verification_gap": "AIDA did not independently verify the submitted workers'-compensation exemption certification with the NYS Workers' Compensation Board before awarding the contract, letting a forged exemption produce an artificially low winning bid.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "nj-meadowlands-2008-encap-gauger",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Misrepresented its landfill-closure qualifications when selected for the no-bid-style 2000 NJMC contract",
+      "Failed to disclose that its founder's ownership stake had been substantially bought out (~$6.1M) shortly before the NJMC contract was signed",
+      "Withheld from lenders on a $212 million state loan that it was simultaneously negotiating municipal PILOT agreements offering up to $450 million in additional collateral",
+      "Former president separately convicted of extorting $100,000 from a financial consultant tied to the project's financing"
+    ],
+    "verification_gap": "NJMC had no independent verification of EnCap's stated landfill-closure qualifications or beneficial-ownership structure at contract award, and the $212 million state loan carried no disclosure requirement forcing EnCap to reveal its concurrent PILOT negotiations to lenders.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "nj-sda-2010-murphy-hillinternational",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "Chaired the committee that selected Hill International without disclosing a longstanding close personal friendship with Hill VP Thomas Foy",
+      "The winning Hill proposal was $233,000 more than the next-highest-rated bid",
+      "Personally approved roughly $519,560 in invoices under the contract he had helped award",
+      "Accepted business meals paid for by Foy, some billed to SDA",
+      "Gave sworn statements about when he first knew Foy that contradicted earlier sworn statements, then invoked the Fifth Amendment"
+    ],
+    "verification_gap": "SDA had no conflict-of-interest disclosure or recusal requirement forcing a selection-committee chair to declare personal relationships with a bidder's representatives, and no separation between who selected the vendor and who later approved that vendor's invoices.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-chesterfield-2013-durr-tdr",
+    "archetype": "Conflict of Interest / Undisclosed Relationship",
+    "red_flags": [
+      "Voted as a Township Committee member to approve a credit-reduction amendment that saved a specific developer over $1 million",
+      "Three months later closed on a $2.37 million sale of his own TDR credits to that same developer",
+      "The sale included 10.25 additional credits the Planning Board (on which he sat) had awarded him",
+      "Sat on the Planning Board without disclosing his personal financial stake in the developer's deal",
+      "Did not recuse himself from the related votes"
+    ],
+    "verification_gap": "Chesterfield Township had no financial-disclosure or mandatory-recusal rule tying a Planning Board/Committee member's personal TDR-credit holdings to votes affecting the market value of those same credits, letting Durr vote himself into a windfall.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-doc-2010-kennedy-stermer-capitalprojects",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Steered more than $630,000 in small, sub-threshold DOC capital-repair contracts to contractor-friends' companies",
+      "Contracts were kept small enough to avoid formal competitive-bidding review",
+      "Received kickbacks from the contractors he steered work to",
+      "Required to disgorge roughly $80,000 in kickback proceeds"
+    ],
+    "verification_gap": "DOC had no independent review flagging a single official's repeated pattern of awarding sub-threshold contracts to the same small set of vendors, which would have surfaced Kennedy's contract-splitting to stay under the competitive-bid threshold.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-doc-2010-armstrong-kerth-alarmbidrig",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "DOC construction management specialist conspired with a single contractor to rig at least nine DOC alarm contracts plus two Haddon Township school contracts",
+      "Contractor solicited deliberately inflated \"cover bids\" from other companies to simulate competition",
+      "Both co-conspirators pleaded guilty",
+      "Armstrong sentenced to prison, forfeiture of his DOC position, and a lifetime bar from NJ public employment"
+    ],
+    "verification_gap": "DOC had no process to check that competing bids on security/alarm contracts were independently prepared (e.g., screening for common authorship or contact between \"competing\" bidders), which would have exposed the coordinated cover-bid pattern across eleven separate contracts.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-pvsc-2021-clark-roofing",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Submitted false claims for equipment-rental expenses through a second, affiliated company, A&S Enterprises",
+      "Charged with and pleaded guilty to false contract payment claims",
+      "Ordered to pay a $75,000 profiteering penalty and debarred (10 years for the companies)"
+    ],
+    "verification_gap": "PVSC had no requirement to verify third-party equipment-rental invoices against actual rental records or confirm the rental vendor's independence, allowing Clark to invoice fictitious equipment costs through his own affiliated company.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "nj-scc-2009-parikh-clarktownship-doors",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Submitted a false certification that subcontractors had been paid",
+      "Used that false certification to authorize a $57,000 payment claim the company was not entitled to",
+      "Held a $295,500 door-replacement contract across four schools with the payment claim later found unsupported"
+    ],
+    "verification_gap": "NJ SCC did not independently confirm subcontractor payment (e.g., via lien waivers or direct subcontractor confirmation) before releasing the $57,000 progress payment, relying solely on the prime contractor's own certification.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "nj-blairstown-2008-davis-municipalcomplex",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "Created shell company Municipal Service Group Inc., using a P.O. box address, while chairing the project's building committee",
+      "Billed $25,000 through the shell company for services that were never rendered",
+      "Marked up a security-system bid to pocket the difference",
+      "Diverted more than $46,000 in project funds in total"
+    ],
+    "verification_gap": "Blairstown Township had no independent verification that vendors billing the municipal-complex project (including the chairman's own shell company) were legitimate operating entities actually performing the invoiced work, and no separation between the committee chairman's oversight role and his ability to direct payments to a company he controlled.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-sci-1999-school-roofing",
+    "archetype": "Bid-Rigging / Collusive Procurement",
+    "red_flags": [
+      "Roofing consultant received undisclosed payments from materials supplier W.P. Hickman Systems in exchange for writing bid specifications that steered contracts to Hickman products",
+      "Design consultants statewide worked in secret partnership with manufacturers/suppliers to write proprietary specs blocking substitution of cheaper materials",
+      "Installation contracts steered to favored contractors through inadequate public notice and same-day pre-bid meetings",
+      "Pattern found in more than half of the 39 districts SCI examined",
+      "Some contractors' certified payrolls used phony Social Security numbers and understated hours"
+    ],
+    "verification_gap": "School districts had no independent technical review of consultant-drafted \"proprietary\" bid specifications to check whether they were written in coordination with a single materials supplier, and no public-notice/pre-bid-meeting timing rule to prevent same-day notice that effectively excluded competing bidders.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-sci-1971-point-breeze-jersey-city",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "SCI found a payoff to public officials tied to the Port Jersey Corp. redevelopment",
+      "Officials improperly received real-estate brokerage commissions on sales of publicly-owned land",
+      "A former municipal building inspector was convicted of extorting $1,200 from a Port Jersey Corp. official",
+      "Irregularities found in the handling of urban-renewal and tax-abatement approval procedures"
+    ],
+    "verification_gap": "NJ had no rule (prior to the resulting legislative reform) barring a purchaser of publicly-owned redevelopment land from also collecting part of the brokerage commission on that same sale, and no independent check on a municipal building inspector soliciting payments from project principals.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "njt-2024-ferrara-hblr",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Timesheets claimed regular, overtime, and double-time pay for hours not actually worked, including during an out-of-state vacation",
+      "Scheme ran over more than two years (Jan. 2018-Apr. 2020) before detection",
+      "Supervisor position gave Ferrara authority to self-certify his own hours with limited independent verification"
+    ],
+    "verification_gap": "No independent, contemporaneous cross-check (e.g. site access logs or a second supervisor's sign-off) against Ferrara's self-submitted timesheets caught the discrepancy before a federal investigation did.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2025-colon",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Superintendent held unilateral authority to both award no-bid repair contracts and certify their completion for payment",
+      "Demanded a fixed percentage (~10%) of contract value as a condition of either step",
+      "Scheme ran for roughly four years (2018-2022) across three developments before the coordinated sweep surfaced it"
+    ],
+    "verification_gap": "No independent second-reviewer sign-off existed between a superintendent's decision to award a no-bid repair contract and that same superintendent's certification that the work was complete and payable.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2025-gilmore",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Same award-and-certify authority concentrated in one superintendent role as the Colon case, at a different set of developments",
+      "Bribe rate (10-20% of contract value) mirrors the pattern across multiple defendants in the same sweep, indicating a shared, learned scheme rather than isolated misconduct",
+      "Seven-year span (2016-2023) before detection"
+    ],
+    "verification_gap": "As with the other superintendents in this sweep, no independent control separated the authority to award a no-bid repair contract from the authority to certify it complete and payable.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2025-mercado",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Nine-year span (2014-2023) and roughly $1.9M in arranged contract work before detection -- the largest individual scheme in the sweep",
+      "Consistent 10-20% bribe rate across multiple contractors, indicating a systematized shakedown rather than a one-off lapse",
+      "Longest sentence (48 months) among all 70 sweep defendants, reflecting the scheme's scale"
+    ],
+    "verification_gap": "No independent audit of Ravenswood Houses' no-bid repair-contract volume or pricing flagged the nearly $1.9M in arranged work as anomalous before the coordinated federal sweep.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2023-gibbs",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Sub-$10,000 no-bid repair contracts fell under a purchasing threshold that limited independent review",
+      "Superintendent deleted texts and switched phone numbers on learning of the investigation, indicating awareness of wrongdoing",
+      "A confidential-informant sting, not a routine audit or internal control, was what surfaced the scheme"
+    ],
+    "verification_gap": "No documentation or second-signature requirement existed on sub-threshold 'micro-purchase' repair awards that would have made a superintendent's unilateral no-bid selection visible to an independent reviewer.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2023-figueroa",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Same no-bid, sub-threshold repair-contract structure exploited as in the related Gibbs scheme at a different Bronx development",
+      "Roughly 13-month scheme surfaced only via a confidential-informant sting",
+      "Resigned shortly after the scheme was uncovered, ahead of formal charges"
+    ],
+    "verification_gap": "No independent documentation or oversight step existed between an assistant superintendent's award of a no-bid repair contract and payment for it.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-nycha-2021-microcontracts",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "The under-$10,000 'micro-purchase' threshold used across multiple developments (not just one) to avoid competitive-bid review",
+      "More than 35 documented bribe payments across at least nine contractors, suggesting the scheme was structural rather than isolated",
+      "Prosecutors' own statement that the pattern was 'likely far more widespread' than the charged conduct"
+    ],
+    "verification_gap": "No disposition of this indictment (plea, trial, or dismissal) could be independently confirmed as of this dataset's most recent research pass, so whether the alleged conduct was ultimately proven remains open.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-comptroller-2011-edc-turner-questionablepayments",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Contract value grew nearly tenfold (from $7.5M to $73.5M) via 21 change orders with almost no independent EDC review",
+      "Contaminated-material disposal costs paid without the pre-audit the contract required",
+      "Missing subcontractor price-proposal review on more than 71% of sampled change orders"
+    ],
+    "verification_gap": "EDC had no independent, arms-length review process confirming that change-order costs and disposal/excavation quantities Turner billed actually corresponded to documented work performed.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-comptroller-2012-doitt-hp-ectp-overbilling",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "Timesheets approved as much as 885 days after the work was purportedly performed, eliminating any contemporaneous check",
+      "Inflated consultant titles and unsupported labor hours on a time-and-materials contract with no fixed-price ceiling",
+      "Unauthorized overtime billed without documented approval"
+    ],
+    "verification_gap": "DoITT had no contemporaneous, independent verification process confirming that HP's billed labor categories, hours, and overtime matched work actually authorized and performed before payment.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-comptroller-2023-doe-sphinx-certifiedpayroll",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Certified payroll reports omitted workers entirely rather than merely underreporting hours, hiding wage theft from the record used to verify prevailing-wage compliance",
+      "Scheme ran across 19 separate school construction sites over roughly two years before recovery",
+      "Prime contractors were held liable for a subcontractor's certified-payroll violations, indicating the primes' own oversight of subcontractor payroll was inadequate"
+    ],
+    "verification_gap": "Prime contractors had no independent process cross-checking their subcontractor's submitted certified payrolls against actual on-site worker rosters.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-comptroller-2024-nycha-contractor-repairs-audit",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "46% of sampled micro-purchase repair payments lacked any evidence the work was performed",
+      "A flagged $186,447 payment for 19 bathtub-surround installations had no supporting documentation and was approved by an employee later indicted in the bribery sweep",
+      "The Federal Monitor overseeing NYCHA made multiple law-enforcement referrals arising from the same underlying documentation gap"
+    ],
+    "verification_gap": "NYCHA had no independent process confirming that micro-purchase repair work billed under the $10,000 no-bid threshold was actually performed before payment was authorized -- the same gap the bribery sweep separately exploited.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dotoig-2009-afc-catapano",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "Utility representatives were bribed to approve inflated 'interference work' billings with no independent check on the billed quantities",
+      "Union officials were separately bribed to reduce required crew sizes, a second control bypassed by the same scheme",
+      "Scheme ran undetected for roughly 14 years (1990-2004) before the 2006 indictment"
+    ],
+    "verification_gap": "No independent, arms-length reviewer verified 'interference work' billing quantities against actual utility-relocation work performed before Con Edison approved payment.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dotoig-2011-eea-skanska-fulton-street",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "DBE-certified firm accepted a subcontract it lacked the equipment/capacity to perform",
+      "Prime contractor effectively self-performed the work while allowing the appearance of DBE participation to stand",
+      "Scheme was large enough in dollar terms ($5.2M subcontract on a $1.4B project) to have been flagged by routine DBE-utilization verification"
+    ],
+    "verification_gap": "MTA had no independent, on-the-ground verification that the DBE subcontractor was actually performing the concrete/demolition work it was credited with, rather than the prime contractor doing it directly.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dotoig-2023-manotrees-sueperior",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "DBE-certified firm's role was purely nominal on roughly $15.5M in contracts, with the general contractor performing the actual work",
+      "Scheme ran undetected for at least four years (2009-2013) before indictment, and took a further seven years to reach sentencing",
+      "ARRA (stimulus) funding was involved, meaning the fraud touched a federally accelerated-spending program with fewer routine controls"
+    ],
+    "verification_gap": "No independent field verification confirmed that the DBE-certified subcontractor, rather than the general contractor, was actually performing the work credited to it.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dotoig-2025-intercounty-lizza",
+    "archetype": "Payroll / Certified-Payroll & Wage Theft",
+    "red_flags": [
+      "Certified payrolls submitted to the FAA and Port Authority omitted hours entirely rather than merely misreporting them",
+      "Work was rerouted through a shell company (4L Equipment Leasing) specifically to evade union benefit-fund contributions",
+      "Scheme spanned four years (2014-2018) before detection"
+    ],
+    "verification_gap": "Neither the FAA nor the Port Authority had an independent process cross-checking certified payroll submissions against actual on-site labor rosters for the shell company's crews.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dotoig-2017-sanzo-willis-ave",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "DBE-certified fuel supplier did not itself supply the fuel it was credited with -- payments were routed through it to non-DBE subcontractors",
+      "Scheme ran roughly four years (2008-2012) on a single bridge project before detection",
+      "Certifying firm retained a personal kickback from the routed payments, layering bribery on top of the pass-through fraud"
+    ],
+    "verification_gap": "No independent verification confirmed the DBE-certified fuel supplier was the entity actually performing the credited work, rather than a conduit for payments to non-DBE firms.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "nj-dotoig-2024-mv-contracting",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "Contractor knowingly certified as a DBE despite not qualifying, then submitted claims on that basis for nearly three years",
+      "Settlement resolved without admission of liability, so no court finding pinned down exactly how the false certification was maintained"
+    ],
+    "verification_gap": "No independent recertification check caught MV Contracting's DBE-eligibility status lapse over the nearly three-year period during which it kept submitting DBE-set-aside payment claims.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "ny-dotoig-2021-naughton-tappan-zee",
+    "archetype": "Pass-Through / Shell MWBE-DBE Vendor",
+    "red_flags": [
+      "DBE-certified fuel supplier misrepresented performing the work itself over a nearly seven-year span (2013-2020)",
+      "A non-DBE subcontractor did most of the actual fuel-delivery work while the DBE firm retained the credit",
+      "Multi-agency joint investigation (DOT-OIG, NYS IG, Port Authority-OIG, USAO-SDNY) was required to unwind the scheme"
+    ],
+    "verification_gap": "No independent field check on the New NY Bridge project verified that the DBE-certified fuel supplier, rather than a non-DBE subcontractor, was performing the delivery work it was credited with.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "ny-dotoig-2008-loguidice-dbe",
+    "archetype": "Certification or Identity Fraud",
+    "red_flags": [
+      "False DBE certification was combined with a wholly separate pension-fund embezzlement scheme by the same owners",
+      "Roughly $7.8M in subcontracts obtained through the false certification before detection",
+      "Only a single source (DOT-OIG's own case library) could be located despite a documented search, limiting independent verification"
+    ],
+    "verification_gap": "No independent verification of Andrea Doreen Construction's or JCS Construction's actual ownership/control structure caught the false DBE certification before roughly $7.8M in subcontracts had been awarded.",
+    "confidence": "Medium"
+  },
+  {
+    "case_id": "sec-2016-united-chairmans-flight",
+    "archetype": "Bribery, Kickback or Undisclosed Payment",
+    "red_flags": [
+      "A money-losing corporate decision (reinstating an unprofitable flight route) was approved outside the company's normal review process at a public official's personal request",
+      "Internal discussions show United officials explicitly weighed the risk that the official could impede a pending regulatory approval if not accommodated",
+      "The company's books and records did not reflect the decision's true rationale, obscuring the benefit from later review"
+    ],
+    "verification_gap": "United's normal route-approval and books-and-records controls were bypassed by the CEO's personal intervention, and no independent compliance check flagged the discrepancy between the stated and actual rationale before regulators did.",
+    "confidence": "High"
+  },
+  {
+    "case_id": "panynj-2017-sec-roadway-bond-disclosure",
+    "archetype": "Invoice or Change-Order Manipulation",
+    "red_flags": [
+      "In-house counsel's own written conclusion that there was 'no clear path to legislative authority' for the funding was not reflected in the bond offering documents",
+      "Bondholders were told proceeds would be used 'only for purposes for which the Port Authority is authorized by law' despite the documented internal legal-risk warning",
+      "Roughly $1.8 billion in bond proceeds were earmarked for four named roadway projects under the undisclosed legal cloud"
+    ],
+    "verification_gap": "No independent disclosure-review process reconciled the Port Authority's own legal department's risk findings with what its bond offering documents told investors before those bonds were sold.",
+    "confidence": "High"
+  }
+]

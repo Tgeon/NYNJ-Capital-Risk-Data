@@ -1,0 +1,89 @@
+{
+  "by_severity": [
+    {
+      "severity": "Material Weakness",
+      "case_count": 60,
+      "case_pct": 50.8,
+      "dollar_exposure": 198326247,
+      "dollar_pct": 94.5
+    },
+    {
+      "severity": "Significant Deficiency",
+      "case_count": 49,
+      "case_pct": 41.5,
+      "dollar_exposure": 11330263,
+      "dollar_pct": 5.4
+    },
+    {
+      "severity": "Control Deficiency",
+      "case_count": 9,
+      "case_pct": 7.6,
+      "dollar_exposure": 307681,
+      "dollar_pct": 0.1
+    }
+  ],
+  "total_cases": 118,
+  "total_exposure": 209964191,
+  "pervasive_agency_category_pairs": [
+    {
+      "agency_group": "NYCHA",
+      "control_category": "Bribery, Kickback & Authorization Controls",
+      "case_count": 8
+    },
+    {
+      "agency_group": "NJ Municipal Redevelopment",
+      "control_category": "Bribery, Kickback & Authorization Controls",
+      "case_count": 7
+    },
+    {
+      "agency_group": "MTA",
+      "control_category": "MWBE/DBE & Professional-Certification Controls",
+      "case_count": 6
+    },
+    {
+      "agency_group": "Port Authority (NY/NJ)",
+      "control_category": "Bribery, Kickback & Authorization Controls",
+      "case_count": 6
+    },
+    {
+      "agency_group": "DASNY",
+      "control_category": "MWBE/DBE & Professional-Certification Controls",
+      "case_count": 5
+    },
+    {
+      "agency_group": "NJ SCC/SDA",
+      "control_category": "Disbursement, Invoice & Change-Order Controls",
+      "case_count": 5
+    },
+    {
+      "agency_group": "NYC SCA",
+      "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+      "case_count": 4
+    },
+    {
+      "agency_group": "NYPA",
+      "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+      "case_count": 3
+    },
+    {
+      "agency_group": "NYC DOE",
+      "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+      "case_count": 3
+    },
+    {
+      "agency_group": "Port Authority (NY/NJ)",
+      "control_category": "Disbursement, Invoice & Change-Order Controls",
+      "case_count": 3
+    },
+    {
+      "agency_group": "NJDOT",
+      "control_category": "Bribery, Kickback & Authorization Controls",
+      "case_count": 3
+    },
+    {
+      "agency_group": "NYSDOT",
+      "control_category": "MWBE/DBE & Professional-Certification Controls",
+      "case_count": 3
+    }
+  ]
+}

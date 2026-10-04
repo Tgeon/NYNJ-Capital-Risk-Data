@@ -1,0 +1,20 @@
+[
+  {
+    "state":"NY",
+    "case_count":72,
+    "confirmed_count":52,
+    "dollar_exposure":133683727
+  },
+  {
+    "state":"NJ",
+    "case_count":35,
+    "confirmed_count":25,
+    "dollar_exposure":41682719
+  },
+  {
+    "state":"NY\/NJ",
+    "case_count":11,
+    "confirmed_count":11,
+    "dollar_exposure":34597745
+  }
+]

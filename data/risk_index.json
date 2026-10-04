@@ -1,0 +1,1146 @@
+[
+  {
+    "agency_group": "NYC SCA",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 4,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.75,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 38166219,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "ny-sca-2016-nadeem-sentenced",
+      "ny-sca-2020-kumar",
+      "ny-queensda-2022-singh-ps71",
+      "ny-queensda-2020-deol-laser-electrical"
+    ]
+  },
+  {
+    "agency_group": "MTA",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 6,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.5,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 32336000,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "ny-mta-2013-kleinberg",
+      "ny-mta-2019-ahern",
+      "ny-mta-2021-tower",
+      "ny-mta-2021-spectrum",
+      "ny-mta-2015-granite",
+      "ny-dotoig-2011-eea-skanska-fulton-street"
+    ]
+  },
+  {
+    "agency_group": "Port Authority (NY/NJ)",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 3,
+    "states": [
+      "NY/NJ"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.67,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 22505918,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "panynj-2015-tishman-overbilling",
+      "panynj-2021-vja-overbilling",
+      "panynj-2017-sec-roadway-bond-disclosure"
+    ]
+  },
+  {
+    "agency_group": "NYC DOE",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 3,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 14218130,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "ny-doe-2025-temco",
+      "ny-doe-2019-mangru",
+      "ny-comptroller-2023-doe-sphinx-certifiedpayroll"
+    ]
+  },
+  {
+    "agency_group": "Port Authority (NY/NJ)",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 6,
+    "states": [
+      "NJ",
+      "NY/NJ"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.5,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 10234000,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "panynj-2016-samson-chairmans-flight",
+      "panynj-2019-wtc-hatzel-buehler",
+      "panynj-2023-newark-restroom-committee",
+      "panynj-2025-newark-restroom-vendor",
+      "drpa-2012-osc-capital-funds",
+      "sec-2016-united-chairmans-flight"
+    ]
+  },
+  {
+    "agency_group": "NYCHA",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 8,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 2136000,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "ny-nycha-2024-harris",
+      "ny-nycha-2025-final",
+      "ny-nycha-2025-colon",
+      "ny-nycha-2025-gilmore",
+      "ny-nycha-2025-mercado",
+      "ny-nycha-2023-gibbs",
+      "ny-nycha-2023-figueroa",
+      "ny-nycha-2021-microcontracts"
+    ]
+  },
+  {
+    "agency_group": "NYSDOT",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 3,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.67,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 2002000,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "ny-dotoig-2023-manotrees-sueperior",
+      "ny-dotoig-2021-naughton-tappan-zee",
+      "ny-dotoig-2008-loguidice-dbe"
+    ]
+  },
+  {
+    "agency_group": "DASNY",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 5,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1338398,
+    "risk_tier": "Elevated Focus",
+    "case_ids": [
+      "ny-cap-2018-s",
+      "ny-dasny-2019-nichter",
+      "ny-dasny-2019-coler",
+      "ny-dasny-2024-scottlawn",
+      "ny-dasny-2024-javen"
+    ]
+  },
+  {
+    "agency_group": "NJ SCC/SDA",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 5,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.2,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 30043325,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "nj-scc-2005-ig-report",
+      "nj-scc-2006-bana-edison-embezzlement",
+      "nj-scc-2006-rullo-megan-group",
+      "nj-sda-2021-sci-part2-oversight",
+      "nj-scc-2009-parikh-clarktownship-doors"
+    ]
+  },
+  {
+    "agency_group": "NJEDA",
+    "control_category": "Economic-Development & Tax-Incentive Controls",
+    "case_count": 2,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 5000000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "nj-camden-2024-norcross-dismissed",
+      "nj-camden-2024-holtec-taxcredit"
+    ]
+  },
+  {
+    "agency_group": "NYCHA",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 2,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1950000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "ny-brooklynda-2016-dayan-eec-nycha",
+      "ny-nycha-2022-lintech"
+    ]
+  },
+  {
+    "agency_group": "NYC DEP",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 2,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1800000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "ny-dep-2018-dandb",
+      "ny-dep-2020-chlupsa-dismissed"
+    ]
+  },
+  {
+    "agency_group": "NJDOT",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 2,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1350000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "njdot-2022-abbonizio-direct-connection",
+      "nj-dotoig-2024-mv-contracting"
+    ]
+  },
+  {
+    "agency_group": "MTA",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 2,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1339000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "ny-mta-2020-overtime",
+      "ny-mta-2026-rocco"
+    ]
+  },
+  {
+    "agency_group": "NJDOT",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 3,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 748000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "njdot-2015-eagle-rock-metellus",
+      "njdot-2015-eagle-rock-dubose",
+      "njdot-2012-tarheel-routes1-9"
+    ]
+  },
+  {
+    "agency_group": "NYPA",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 3,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 673944,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "ny-nypa-2015-delaney",
+      "ny-nypa-2016-sheridan",
+      "ny-cuny-2014-r3electrical"
+    ]
+  },
+  {
+    "agency_group": "NJ Municipal Redevelopment",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 7,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Pervasive",
+    "has_material_weakness": true,
+    "recency_share": 0.14,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 371835,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "nj-hoboken-2010-cammarano",
+      "nj-jerseycity-2010-vega",
+      "nj-jerseycity-2010-beldini",
+      "nj-passaic-2016-blanco",
+      "nj-trenton-2014-mack",
+      "nj-newark-2026-garcia",
+      "nj-unioncity-2012-venegas"
+    ]
+  },
+  {
+    "agency_group": "Port Authority (NY/NJ)",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 2,
+    "states": [
+      "NY",
+      "NY/NJ"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": false,
+    "recency_share": 0.5,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 317418,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "panynj-2016-padover-arbor-concrete",
+      "ny-dotoig-2025-intercounty-lizza"
+    ]
+  },
+  {
+    "agency_group": "NJ SCC/SDA",
+    "control_category": "Conflict-of-Interest & Ethics Controls",
+    "case_count": 2,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": true,
+    "recency_share": 0.5,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 233000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "nj-sda-2020-sci-part1-patronage",
+      "nj-sda-2010-murphy-hillinternational"
+    ]
+  },
+  {
+    "agency_group": "NJ Local School Districts",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 2,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": false,
+    "recency_share": 0.5,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 195000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "nj-egg-harbor-2023-charter-bidrig",
+      "nj-westfield-2011-disko"
+    ]
+  },
+  {
+    "agency_group": "MTA",
+    "control_category": "Conflict-of-Interest & Ethics Controls",
+    "case_count": 2,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 170000,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "ny-mta-2020-patel",
+      "ny-mta-2023-nepotism"
+    ]
+  },
+  {
+    "agency_group": "NYC SCA",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 2,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Recurring",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 3500,
+    "risk_tier": "Recurring Pattern",
+    "case_ids": [
+      "ny-brooklynda-2015-elchoum-ama-ps138k",
+      "ny-sca-2005-sixofficers-bribery"
+    ]
+  },
+  {
+    "agency_group": "MTA",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 10000000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-mta-2022-berlangero-s"
+    ]
+  },
+  {
+    "agency_group": "NYC DEP",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 10000000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-dep-2014-schlesinger"
+    ]
+  },
+  {
+    "agency_group": "OGS",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 2500000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-multi-2017-msr-riglietti"
+    ]
+  },
+  {
+    "agency_group": "Port Authority (NY/NJ)",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 1,
+    "states": [
+      "NY/NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 2000000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "panynj-2016-dcm-erectors-mwbe"
+    ]
+  },
+  {
+    "agency_group": "Lawrence Union Free School District (Nassau County)",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 2000000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-nassauda-2025-unger-lawrence-ufsd-hvac"
+    ]
+  },
+  {
+    "agency_group": "Uniondale Union Free School District (Nassau County) / NYS prevailing-wage program",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1960000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-sdny-2025-joseph-bwk-uniondale"
+    ]
+  },
+  {
+    "agency_group": "SUNY Poly / Fort Schuyler",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1600000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-suny-2026-final"
+    ]
+  },
+  {
+    "agency_group": "CUNY",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1500000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-cuny-2026-01"
+    ]
+  },
+  {
+    "agency_group": "Orange County Industrial Development Agency (IDA) / Accelerator Program",
+    "control_category": "Conflict-of-Interest & Ethics Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1265000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-osc-orangecounty-ida-corruption-2021"
+    ]
+  },
+  {
+    "agency_group": "NYSDOT",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1200000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-dotoig-2009-afc-catapano"
+    ]
+  },
+  {
+    "agency_group": "Port Authority (NY/NJ)",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NY/NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1089771,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "panynj-2017-crimson-vertuccio"
+    ]
+  },
+  {
+    "agency_group": "Monroe County Water Authority; Monroe Security and Safety Systems LDC (Monroe County Local Development Corporation); Monroe County Department of Information Services",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 950083,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-osc-monroecounty-bidrigging-2016"
+    ]
+  },
+  {
+    "agency_group": "Village of Hempstead Housing Authority (HUD-funded)",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 800000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-hempstead-2024-bozier-vhha-bidrigging"
+    ]
+  },
+  {
+    "agency_group": "Chesterfield Township Committee / Planning Board (municipal Transfer of Development Rights program)",
+    "control_category": "Conflict-of-Interest & Ethics Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 666250,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-chesterfield-2013-durr-tdr"
+    ]
+  },
+  {
+    "agency_group": "NJ Dept. of Corrections (DOC), Division of Property Management & Construction -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 630000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-doc-2010-kennedy-stermer-capitalprojects"
+    ]
+  },
+  {
+    "agency_group": "NYSDOT",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 600000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-dot-2019-s"
+    ]
+  },
+  {
+    "agency_group": "NYC DEP",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 571000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-dep-2022-djurasevic"
+    ]
+  },
+  {
+    "agency_group": "NJ Transit",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 487899,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "njt-2024-ferrara-hblr"
+    ]
+  },
+  {
+    "agency_group": "OGS",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 419000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-ogs-2014-01"
+    ]
+  },
+  {
+    "agency_group": "NYC DOT",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 400000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-nycdot-2008-01"
+    ]
+  },
+  {
+    "agency_group": "City of Amsterdam Industrial Development Agency (AIDA)",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 341400,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-amsterdam-2016-squires-ida"
+    ]
+  },
+  {
+    "agency_group": "NYC SCA + NYCHA",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 330000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-scanycha-2016-final"
+    ]
+  },
+  {
+    "agency_group": "Executive Chamber / ESD",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 315000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-percoco-2018-01"
+    ]
+  },
+  {
+    "agency_group": "NYC DOT",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 250000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-dotoig-2017-sanzo-willis-ave"
+    ]
+  },
+  {
+    "agency_group": "NJ Dept. of Corrections (DOC) -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 230000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-doc-2010-armstrong-kerth-alarmbidrig"
+    ]
+  },
+  {
+    "agency_group": "NYS DEC",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 167000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-dec-2016-01"
+    ]
+  },
+  {
+    "agency_group": "MTA",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 152420,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-mta-2018-lokhandwala"
+    ]
+  },
+  {
+    "agency_group": "New Jersey Meadowlands Commission (NJMC)",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 100000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-meadowlands-2008-encap-gauger"
+    ]
+  },
+  {
+    "agency_group": "Longwood Central School District (Suffolk County)",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 99671,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-suffolkda-2025-dealmeida-rl-concrete-longwood"
+    ]
+  },
+  {
+    "agency_group": "NJ Local School Districts",
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 70000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-hillsborough-2026-kickback"
+    ]
+  },
+  {
+    "agency_group": "Blairstown Township (municipal complex construction project) -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "control_category": "Conflict-of-Interest & Ethics Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 46000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-blairstown-2008-davis-municipalcomplex"
+    ]
+  },
+  {
+    "agency_group": "OGS",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 41000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-ogs-2011-01"
+    ]
+  },
+  {
+    "agency_group": "DASNY",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 33000,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-dasny-2024-seabreeze"
+    ]
+  },
+  {
+    "agency_group": "Passaic Valley Sewerage Commission (PVSC) -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 10210,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-pvsc-2021-clark-roofing"
+    ]
+  },
+  {
+    "agency_group": "OMH",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 6600,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-omh-2009-01"
+    ]
+  },
+  {
+    "agency_group": "New Jersey State Commission of Investigation (SCI)",
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 1200,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-sci-1971-point-breeze-jersey-city"
+    ]
+  },
+  {
+    "agency_group": "NJ SCC/SDA",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 0,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-scc-2005-monahan-cm3-forgery"
+    ]
+  },
+  {
+    "agency_group": "OGS",
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": false,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 0,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-osc-ogs-construction-mgmt-mwbe-2021"
+    ]
+  },
+  {
+    "agency_group": "New Jersey State Commission of Investigation (SCI)",
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 1,
+    "states": [
+      "NJ"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 0,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "nj-sci-1999-school-roofing"
+    ]
+  },
+  {
+    "agency_group": "NYC EDC",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 0,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-comptroller-2011-edc-turner-questionablepayments"
+    ]
+  },
+  {
+    "agency_group": "NYC DoITT",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 0.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 0,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-comptroller-2012-doitt-hp-ectp-overbilling"
+    ]
+  },
+  {
+    "agency_group": "NYCHA",
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 1,
+    "states": [
+      "NY"
+    ],
+    "pervasiveness": "Isolated",
+    "has_material_weakness": true,
+    "recency_share": 1.0,
+    "recent_window": "2017-2026",
+    "dollar_exposure": 0,
+    "risk_tier": "Isolated Precedent",
+    "case_ids": [
+      "ny-comptroller-2024-nycha-contractor-repairs-audit"
+    ]
+  }
+]

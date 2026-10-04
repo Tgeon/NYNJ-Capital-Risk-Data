@@ -1,0 +1,62 @@
+[
+  {
+    "region_group":"New York City",
+    "case_count":47,
+    "confirmed_count":37,
+    "dollar_exposure":119580789
+  },
+  {
+    "region_group":"Statewide \/ Multi-Region (NJ)",
+    "case_count":4,
+    "confirmed_count":3,
+    "dollar_exposure":27500000
+  },
+  {
+    "region_group":"Statewide \/ Multi-Region",
+    "case_count":22,
+    "confirmed_count":14,
+    "dollar_exposure":22194969
+  },
+  {
+    "region_group":"Long Island",
+    "case_count":8,
+    "confirmed_count":6,
+    "dollar_exposure":19542033
+  },
+  {
+    "region_group":"Southern NJ",
+    "case_count":5,
+    "confirmed_count":5,
+    "dollar_exposure":7015000
+  },
+  {
+    "region_group":"Northern NJ",
+    "case_count":15,
+    "confirmed_count":13,
+    "dollar_exposure":6186245
+  },
+  {
+    "region_group":"Central NJ",
+    "case_count":6,
+    "confirmed_count":2,
+    "dollar_exposure":2755325
+  },
+  {
+    "region_group":"Hudson Valley",
+    "case_count":4,
+    "confirmed_count":4,
+    "dollar_exposure":2357000
+  },
+  {
+    "region_group":"Western NY",
+    "case_count":6,
+    "confirmed_count":3,
+    "dollar_exposure":2032830
+  },
+  {
+    "region_group":"Capital Region",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":800000
+  }
+]

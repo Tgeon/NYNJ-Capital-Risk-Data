@@ -1,0 +1,236 @@
+[
+  {
+    "agency_group":"MTA",
+    "case_count":12,
+    "confirmed_count":6,
+    "dollar_exposure":43997420
+  },
+  {
+    "agency_group":"NYC SCA",
+    "case_count":6,
+    "confirmed_count":5,
+    "dollar_exposure":38169719
+  },
+  {
+    "agency_group":"Port Authority (NY\/NJ)",
+    "case_count":13,
+    "confirmed_count":13,
+    "dollar_exposure":36147107
+  },
+  {
+    "agency_group":"NJ SCC\/SDA",
+    "case_count":8,
+    "confirmed_count":4,
+    "dollar_exposure":30276325
+  },
+  {
+    "agency_group":"NYC DOE",
+    "case_count":3,
+    "confirmed_count":3,
+    "dollar_exposure":14218130
+  },
+  {
+    "agency_group":"NYC DEP",
+    "case_count":4,
+    "confirmed_count":4,
+    "dollar_exposure":12371000
+  },
+  {
+    "agency_group":"NJEDA",
+    "case_count":2,
+    "confirmed_count":2,
+    "dollar_exposure":5000000
+  },
+  {
+    "agency_group":"NYCHA",
+    "case_count":11,
+    "confirmed_count":10,
+    "dollar_exposure":4086000
+  },
+  {
+    "agency_group":"NYSDOT",
+    "case_count":5,
+    "confirmed_count":4,
+    "dollar_exposure":3802000
+  },
+  {
+    "agency_group":"OGS",
+    "case_count":4,
+    "confirmed_count":1,
+    "dollar_exposure":2960000
+  },
+  {
+    "agency_group":"NJDOT",
+    "case_count":5,
+    "confirmed_count":5,
+    "dollar_exposure":2098000
+  },
+  {
+    "agency_group":"Lawrence Union Free School District (Nassau County)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":2000000
+  },
+  {
+    "agency_group":"Uniondale Union Free School District (Nassau County) \/ NYS prevailing-wage program",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":1960000
+  },
+  {
+    "agency_group":"SUNY Poly \/ Fort Schuyler",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":1600000
+  },
+  {
+    "agency_group":"CUNY",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":1500000
+  },
+  {
+    "agency_group":"DASNY",
+    "case_count":6,
+    "confirmed_count":2,
+    "dollar_exposure":1371398
+  },
+  {
+    "agency_group":"Orange County Industrial Development Agency (IDA) \/ Accelerator Program",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":1265000
+  },
+  {
+    "agency_group":"Monroe County Water Authority; Monroe Security and Safety Systems LDC (Monroe County Local Development Corporation); Monroe County Department of Information Services",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":950083
+  },
+  {
+    "agency_group":"Village of Hempstead Housing Authority (HUD-funded)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":800000
+  },
+  {
+    "agency_group":"NYPA",
+    "case_count":3,
+    "confirmed_count":3,
+    "dollar_exposure":673944
+  },
+  {
+    "agency_group":"Chesterfield Township Committee \/ Planning Board (municipal Transfer of Development Rights program)",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":666250
+  },
+  {
+    "agency_group":"NYC DOT",
+    "case_count":2,
+    "confirmed_count":1,
+    "dollar_exposure":650000
+  },
+  {
+    "agency_group":"NJ Dept. of Corrections (DOC), Division of Property Management & Construction -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":630000
+  },
+  {
+    "agency_group":"NJ Transit",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":487899
+  },
+  {
+    "agency_group":"NJ Municipal Redevelopment",
+    "case_count":7,
+    "confirmed_count":6,
+    "dollar_exposure":371835
+  },
+  {
+    "agency_group":"City of Amsterdam Industrial Development Agency (AIDA)",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":341400
+  },
+  {
+    "agency_group":"NYC SCA + NYCHA",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":330000
+  },
+  {
+    "agency_group":"Executive Chamber \/ ESD",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":315000
+  },
+  {
+    "agency_group":"NJ Local School Districts",
+    "case_count":3,
+    "confirmed_count":2,
+    "dollar_exposure":265000
+  },
+  {
+    "agency_group":"NJ Dept. of Corrections (DOC) -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":230000
+  },
+  {
+    "agency_group":"NYS DEC",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":167000
+  },
+  {
+    "agency_group":"New Jersey Meadowlands Commission (NJMC)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":100000
+  },
+  {
+    "agency_group":"Longwood Central School District (Suffolk County)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":99671
+  },
+  {
+    "agency_group":"Blairstown Township (municipal complex construction project) -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":46000
+  },
+  {
+    "agency_group":"Passaic Valley Sewerage Commission (PVSC) -- prosecuted by NJ Attorney General's Office, Division of Criminal Justice",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":10210
+  },
+  {
+    "agency_group":"OMH",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":6600
+  },
+  {
+    "agency_group":"New Jersey State Commission of Investigation (SCI)",
+    "case_count":2,
+    "confirmed_count":0,
+    "dollar_exposure":1200
+  },
+  {
+    "agency_group":"NYC EDC",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":0
+  },
+  {
+    "agency_group":"NYC DoITT",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":0
+  }
+]

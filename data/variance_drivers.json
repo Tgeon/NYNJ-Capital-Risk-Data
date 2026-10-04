@@ -1,0 +1,47 @@
+{
+  "compare_from": "2016\u20132019",
+  "compare_to": "2020\u20132023",
+  "total_from": 59313818,
+  "total_to": 48650929,
+  "total_delta": -10662889,
+  "total_delta_pct": -18.0,
+  "drivers": [
+    {
+      "control_category": "Disbursement, Invoice & Change-Order Controls",
+      "exposure_2016\u20132019": 1000000,
+      "exposure_2020\u20132023": 29385210,
+      "delta": 28385210
+    },
+    {
+      "control_category": "Procurement & Bid-Integrity Controls",
+      "exposure_2016\u20132019": 4181254,
+      "exposure_2020\u20132023": 10115000,
+      "delta": 5933746
+    },
+    {
+      "control_category": "Conflict-of-Interest & Ethics Controls",
+      "exposure_2016\u20132019": 0,
+      "exposure_2020\u20132023": 1435000,
+      "delta": 1435000
+    },
+    {
+      "control_category": "Bribery, Kickback & Authorization Controls",
+      "exposure_2016\u20132019": 6654420,
+      "exposure_2020\u20132023": 1831000,
+      "delta": -4823420
+    },
+    {
+      "control_category": "MWBE/DBE & Professional-Certification Controls",
+      "exposure_2016\u20132019": 6728458,
+      "exposure_2020\u20132023": 1302000,
+      "delta": -5426458
+    },
+    {
+      "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+      "exposure_2016\u20132019": 40749686,
+      "exposure_2020\u20132023": 4582719,
+      "delta": -36166967
+    }
+  ],
+  "reconciled": true
+}

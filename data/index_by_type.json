@@ -1,0 +1,206 @@
+[
+  {
+    "project_type":"School Construction",
+    "case_count":22,
+    "confirmed_count":15,
+    "dollar_exposure":86367715
+  },
+  {
+    "project_type":"Commercial Tower",
+    "case_count":4,
+    "confirmed_count":4,
+    "dollar_exposure":24580689
+  },
+  {
+    "project_type":"Transit",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":19600000
+  },
+  {
+    "project_type":"Transit\/Subway",
+    "case_count":7,
+    "confirmed_count":4,
+    "dollar_exposure":12597420
+  },
+  {
+    "project_type":"Water\/Sewer",
+    "case_count":3,
+    "confirmed_count":3,
+    "dollar_exposure":10581210
+  },
+  {
+    "project_type":"Bridge",
+    "case_count":12,
+    "confirmed_count":9,
+    "dollar_exposure":9492000
+  },
+  {
+    "project_type":"Bus Depot",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":8250000
+  },
+  {
+    "project_type":"Economic Development",
+    "case_count":5,
+    "confirmed_count":5,
+    "dollar_exposure":8180000
+  },
+  {
+    "project_type":"Airport",
+    "case_count":6,
+    "confirmed_count":6,
+    "dollar_exposure":7791418
+  },
+  {
+    "project_type":"Public Housing",
+    "case_count":10,
+    "confirmed_count":9,
+    "dollar_exposure":3986000
+  },
+  {
+    "project_type":"Highway",
+    "case_count":4,
+    "confirmed_count":3,
+    "dollar_exposure":3460000
+  },
+  {
+    "project_type":"Professional Services",
+    "case_count":2,
+    "confirmed_count":2,
+    "dollar_exposure":2825083
+  },
+  {
+    "project_type":"Multi-Agency Public Works (School Construction\/State Psychiatric Facility\/Transit)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":2500000
+  },
+  {
+    "project_type":"State Office\/Correctional",
+    "case_count":5,
+    "confirmed_count":3,
+    "dollar_exposure":2120000
+  },
+  {
+    "project_type":"Higher Education",
+    "case_count":4,
+    "confirmed_count":0,
+    "dollar_exposure":1942940
+  },
+  {
+    "project_type":"Public Housing (scaffolding lighting\/electrical installation and maintenance)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":900000
+  },
+  {
+    "project_type":"Highway\/Road",
+    "case_count":3,
+    "confirmed_count":3,
+    "dollar_exposure":848000
+  },
+  {
+    "project_type":"School Construction\/Renovation",
+    "case_count":2,
+    "confirmed_count":2,
+    "dollar_exposure":718130
+  },
+  {
+    "project_type":"Land Development \/ Transfer of Development Rights (TDR) Program -- Municipal Redevelopment",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":666250
+  },
+  {
+    "project_type":"Rail\/Transit",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":487899
+  },
+  {
+    "project_type":"Power Infrastructure",
+    "case_count":2,
+    "confirmed_count":2,
+    "dollar_exposure":400000
+  },
+  {
+    "project_type":"Redevelopment",
+    "case_count":8,
+    "confirmed_count":6,
+    "dollar_exposure":373035
+  },
+  {
+    "project_type":"Commercial\/Residential Rehabilitation (IDA-sponsored capital project)",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":341400
+  },
+  {
+    "project_type":"Higher Education\/Public Housing (multi-agency)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":273944
+  },
+  {
+    "project_type":"School Construction -- Construction Management Consulting Services Contract",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":233000
+  },
+  {
+    "project_type":"Environmental\/Historic",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":167000
+  },
+  {
+    "project_type":"Landfill Closure & Mixed-Use Redevelopment (four Meadowlands landfills; golf courses, housing, commercial)",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":100000
+  },
+  {
+    "project_type":"Public Hospital",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":84651
+  },
+  {
+    "project_type":"Psychiatric Facility",
+    "case_count":2,
+    "confirmed_count":1,
+    "dollar_exposure":50407
+  },
+  {
+    "project_type":"Municipal Building",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":46000
+  },
+  {
+    "project_type":"Emergency Communications Infrastructure",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":0
+  },
+  {
+    "project_type":"Economic-Development Capital Construction",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":0
+  },
+  {
+    "project_type":"Public Housing Repair\/Maintenance Contracts",
+    "case_count":1,
+    "confirmed_count":1,
+    "dollar_exposure":0
+  },
+  {
+    "project_type":"Public Building",
+    "case_count":1,
+    "confirmed_count":0,
+    "dollar_exposure":0
+  }
+]

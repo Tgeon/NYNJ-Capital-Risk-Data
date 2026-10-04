@@ -1,0 +1,58 @@
+[
+  {
+    "period": "1968\u20131971",
+    "case_count": 1,
+    "dollar_exposure": 1200,
+    "confirmed_count": 0,
+    "confirmed_pct": 0.0
+  },
+  {
+    "period": "1996\u20131999",
+    "case_count": 1,
+    "dollar_exposure": 0,
+    "confirmed_count": 0,
+    "confirmed_pct": 0.0
+  },
+  {
+    "period": "2004\u20132007",
+    "case_count": 5,
+    "dollar_exposure": 2486325,
+    "confirmed_count": 1,
+    "confirmed_pct": 20.0
+  },
+  {
+    "period": "2008\u20132011",
+    "case_count": 17,
+    "dollar_exposure": 23798600,
+    "confirmed_count": 10,
+    "confirmed_pct": 58.8
+  },
+  {
+    "period": "2012\u20132015",
+    "case_count": 16,
+    "dollar_exposure": 43160612,
+    "confirmed_count": 11,
+    "confirmed_pct": 68.8
+  },
+  {
+    "period": "2016\u20132019",
+    "case_count": 26,
+    "dollar_exposure": 59313818,
+    "confirmed_count": 23,
+    "confirmed_pct": 88.5
+  },
+  {
+    "period": "2020\u20132023",
+    "case_count": 27,
+    "dollar_exposure": 48650929,
+    "confirmed_count": 22,
+    "confirmed_pct": 81.5
+  },
+  {
+    "period": "2024\u20132027",
+    "case_count": 25,
+    "dollar_exposure": 32552707,
+    "confirmed_count": 21,
+    "confirmed_pct": 84.0
+  }
+]

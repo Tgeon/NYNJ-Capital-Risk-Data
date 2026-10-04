@@ -1,0 +1,113 @@
+[
+  {
+    "state": "NY",
+    "case_count": 72,
+    "confirmed_count": 52,
+    "confirmed_pct": 72.2,
+    "dollar_exposure": 133683727,
+    "recent_case_count": 50,
+    "recent_window": "2017-2026",
+    "leading_category_by_count": "Bribery, Kickback & Authorization Controls",
+    "leading_category_by_count_n": 19,
+    "leading_category_by_exposure": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "leading_category_by_exposure_amt": 61286326,
+    "leading_archetype": "Bribery, Kickback or Undisclosed Payment",
+    "leading_archetype_n": 20,
+    "leading_agency": "MTA",
+    "leading_agency_n": 12,
+    "elevated_focus_pairs": [
+      {
+        "agency_group": "NYC SCA",
+        "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+        "case_count": 4,
+        "dollar_exposure": 38166219
+      },
+      {
+        "agency_group": "MTA",
+        "control_category": "MWBE/DBE & Professional-Certification Controls",
+        "case_count": 6,
+        "dollar_exposure": 32336000
+      },
+      {
+        "agency_group": "NYC DOE",
+        "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+        "case_count": 3,
+        "dollar_exposure": 14218130
+      },
+      {
+        "agency_group": "NYCHA",
+        "control_category": "Bribery, Kickback & Authorization Controls",
+        "case_count": 8,
+        "dollar_exposure": 2136000
+      },
+      {
+        "agency_group": "NYSDOT",
+        "control_category": "MWBE/DBE & Professional-Certification Controls",
+        "case_count": 3,
+        "dollar_exposure": 2002000
+      },
+      {
+        "agency_group": "DASNY",
+        "control_category": "MWBE/DBE & Professional-Certification Controls",
+        "case_count": 5,
+        "dollar_exposure": 1338398
+      }
+    ]
+  },
+  {
+    "state": "NJ",
+    "case_count": 35,
+    "confirmed_count": 25,
+    "confirmed_pct": 71.4,
+    "dollar_exposure": 41682719,
+    "recent_case_count": 11,
+    "recent_window": "2017-2026",
+    "leading_category_by_count": "Bribery, Kickback & Authorization Controls",
+    "leading_category_by_count_n": 13,
+    "leading_category_by_exposure": "Disbursement, Invoice & Change-Order Controls",
+    "leading_category_by_exposure_amt": 30053535,
+    "leading_archetype": "Bribery, Kickback or Undisclosed Payment",
+    "leading_archetype_n": 13,
+    "leading_agency": "NJ SCC/SDA",
+    "leading_agency_n": 8,
+    "elevated_focus_pairs": [
+      {
+        "agency_group": "Port Authority (NY/NJ)",
+        "control_category": "Bribery, Kickback & Authorization Controls",
+        "case_count": 6,
+        "dollar_exposure": 10234000
+      }
+    ]
+  },
+  {
+    "state": "NY/NJ",
+    "case_count": 11,
+    "confirmed_count": 11,
+    "confirmed_pct": 100.0,
+    "dollar_exposure": 34597745,
+    "recent_case_count": 6,
+    "recent_window": "2017-2026",
+    "leading_category_by_count": "Bribery, Kickback & Authorization Controls",
+    "leading_category_by_count_n": 5,
+    "leading_category_by_exposure": "Disbursement, Invoice & Change-Order Controls",
+    "leading_category_by_exposure_amt": 22505918,
+    "leading_archetype": "Bribery, Kickback or Undisclosed Payment",
+    "leading_archetype_n": 5,
+    "leading_agency": "Port Authority (NY/NJ)",
+    "leading_agency_n": 11,
+    "elevated_focus_pairs": [
+      {
+        "agency_group": "Port Authority (NY/NJ)",
+        "control_category": "Disbursement, Invoice & Change-Order Controls",
+        "case_count": 3,
+        "dollar_exposure": 22505918
+      },
+      {
+        "agency_group": "Port Authority (NY/NJ)",
+        "control_category": "Bribery, Kickback & Authorization Controls",
+        "case_count": 6,
+        "dollar_exposure": 10234000
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "NY": {
+    "heading": "What this means for New York",
+    "paragraphs": [
+      "New York has 72 of the dataset's 118 cases and $133.7M of $210.0M in tracked exposure -- the largest share of either. 72.2% are independently confirmed, and 69.4% are from the last 10 years.",
+      "38 cases (52.8%) reached Material Weakness severity, carrying 94.7% of NY's exposure. Bribery, Kickback & Authorization Controls and Payroll, Timekeeping & Certified-Payroll Controls are tied as the most common control failures (19 cases each). Payroll, Timekeeping & Certified-Payroll Controls carries the largest dollar exposure ($61.3M).",
+      "6 agency/category pairings clear the register's \u2018Elevated Focus\u2019 bar in NY -- pervasive, at least one Material Weakness case, and still active: NYC SCA \u00d7 Payroll (4 cases, $38.2M); MTA \u00d7 MWBE/DBE & Professional-Certification Controls (6 cases, $32.3M); NYC DOE \u00d7 Payroll (3 cases, $14.2M); NYCHA \u00d7 Bribery (8 cases, $2.1M); NYSDOT \u00d7 MWBE/DBE & Professional-Certification Controls (3 cases, $2.0M); DASNY \u00d7 MWBE/DBE & Professional-Certification Controls (5 cases, $1.3M).",
+      "This describes where enforcement has concentrated historically -- it is not a prediction that any specific project or agency will see fraud."
+    ],
+    "key_stats": {
+      "case_count": 72,
+      "dollar_exposure": 133683727,
+      "confirmed_pct": 72.2,
+      "material_weakness_pct": 52.8,
+      "recent_pct": 69.4,
+      "leading_category": "Bribery, Kickback & Authorization Controls",
+      "elevated_focus_count": 6
+    }
+  },
+  "NJ": {
+    "heading": "What this means for New Jersey",
+    "paragraphs": [
+      "New Jersey has 35 of the 118 cases and $41.7M in tracked exposure. 71.4% are independently confirmed, but only 31.4% are from the last 10 years -- a more historical caseload than New York's 69.4%.",
+      "Bribery and kickback control failures are the most common category by far (13 cases, 37% of NJ's total), from municipal-redevelopment and pay-to-play prosecutions. But the largest dollar exposure sits elsewhere, in disbursement and change-order failures at NJ school-construction contracts ($30.1M) -- NJ's frequency risk and its dollar risk point to two different controls.",
+      "Only one NJ-linked pairing clears \u2018Elevated Focus\u2019: Port Authority (NY/NJ) \u00d7 Bribery (6 cases, $10.2M) -- the bi-state Port Authority pattern below. NJ Municipal Redevelopment \u00d7 Bribery is the most pervasive NJ-specific pairing (7 cases), second only to NYCHA in NY (8 cases), but doesn't clear Elevated Focus: only 14% of its cases are recent -- mostly the 2009-2016 Hudson County era, not an actively recurring pattern.",
+      "This describes where enforcement has concentrated historically -- it is not a prediction that any specific project or agency will see fraud."
+    ],
+    "key_stats": {
+      "case_count": 35,
+      "dollar_exposure": 41682719,
+      "confirmed_pct": 71.4,
+      "material_weakness_pct": 34.3,
+      "recent_pct": 31.4,
+      "leading_category": "Bribery, Kickback & Authorization Controls",
+      "elevated_focus_count": 1
+    }
+  },
+  "NY/NJ": {
+    "heading": "The bi-state exception: Port Authority of NY & NJ",
+    "paragraphs": [
+      "The 11 cases coded NY/NJ are almost all Port Authority of New York and New Jersey matters. All are independently confirmed, and 90.9% are Material Weakness-tier -- the highest concentration of confirmed, high-severity findings in the dataset. This is why Port Authority \u00d7 Bribery appears as Elevated Focus in both state sections above."
+    ],
+    "key_stats": {
+      "case_count": 11,
+      "dollar_exposure": 34597745,
+      "confirmed_pct": 100.0,
+      "material_weakness_pct": 90.9
+    }
+  }
+}

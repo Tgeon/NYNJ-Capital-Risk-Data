@@ -1,0 +1,44 @@
+[
+  {
+    "control_category": "Procurement & Bid-Integrity Controls",
+    "case_count": 14,
+    "dollar_exposure": 18306254,
+    "material_weakness_count": 6
+  },
+  {
+    "control_category": "MWBE/DBE & Professional-Certification Controls",
+    "case_count": 20,
+    "dollar_exposure": 49276398,
+    "material_weakness_count": 14
+  },
+  {
+    "control_category": "Payroll, Timekeeping & Certified-Payroll Controls",
+    "case_count": 22,
+    "dollar_exposure": 62112281,
+    "material_weakness_count": 13
+  },
+  {
+    "control_category": "Disbursement, Invoice & Change-Order Controls",
+    "case_count": 16,
+    "dollar_exposure": 54733453,
+    "material_weakness_count": 11
+  },
+  {
+    "control_category": "Bribery, Kickback & Authorization Controls",
+    "case_count": 37,
+    "dollar_exposure": 18155555,
+    "material_weakness_count": 13
+  },
+  {
+    "control_category": "Conflict-of-Interest & Ethics Controls",
+    "case_count": 7,
+    "dollar_exposure": 2380250,
+    "material_weakness_count": 2
+  },
+  {
+    "control_category": "Economic-Development & Tax-Incentive Controls",
+    "case_count": 2,
+    "dollar_exposure": 5000000,
+    "material_weakness_count": 1
+  }
+]

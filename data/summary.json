@@ -1,0 +1,55 @@
+{
+  "verification": {
+    "n_raw_records": 126,
+    "n_unique_cases": 118,
+    "n_duplicate_records": 8,
+    "duplicate_rate_pct": 6.3,
+    "confirmed": 88,
+    "probable": 8,
+    "uncorroborated": 22,
+    "confirmed_pct": 74.6,
+    "probable_pct": 6.8,
+    "uncorroborated_pct": 18.6,
+    "needs_further_verification_pct": 25.4
+  },
+  "dollar_exposure": {
+    "total_exposure_counted": 209964191,
+    "median_case_exposure": 409500.0,
+    "n_cases_with_disclosed_dollar": 112,
+    "n_cases_undisclosed": 6
+  },
+  "region_count": 10,
+  "agency_count": 39,
+  "date_range": [
+    "1971-10-01",
+    "2026-06-03"
+  ],
+  "stage_mix": {
+    "Criminal conviction / plea / sentence": 63,
+    "Settlement / DPA-NPA": 19,
+    "Charged / indicted": 16,
+    "IG finding / administrative": 13,
+    "Dismissed / vacated": 4,
+    "Other": 3
+  },
+  "by_state": [
+    {
+      "state": "NY",
+      "case_count": 72,
+      "confirmed_count": 52,
+      "dollar_exposure": 133683727
+    },
+    {
+      "state": "NJ",
+      "case_count": 35,
+      "confirmed_count": 25,
+      "dollar_exposure": 41682719
+    },
+    {
+      "state": "NY/NJ",
+      "case_count": 11,
+      "confirmed_count": 11,
+      "dollar_exposure": 34597745
+    }
+  ]
+}
