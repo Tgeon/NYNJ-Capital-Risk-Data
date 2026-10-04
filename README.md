@@ -1,6 +1,6 @@
 # NYNJ Capital Risk Data
 
-**[Open the interactive tracker →](https://tgeon.github.io/nynj-capital-risk-data/)**
+**[Open the interactive tracker →](https://tgeon.github.io/NYNJ-Capital-Risk-Data/)**
 
 118 enforcement and litigation cases tied to capital construction projects in New York, New Jersey,
 and the bi-state Port Authority of NY & NJ. Each case is sourced and checked individually, not
