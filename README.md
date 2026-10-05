@@ -3,9 +3,7 @@
 **[Open the interactive tracker →](https://tgeon.github.io/NYNJ-Capital-Risk-Data/)**
 
 118 enforcement and litigation cases tied to capital construction projects in New York, New Jersey,
-and the bi-state Port Authority of NY & NJ. Each case is sourced and checked individually, not
-scraped in bulk. This project has three parts: the dataset itself, an internal-controls and
-risk-tier analysis on top of it, and an interactive tracker to explore both.
+and the bi-state Port Authority of NY & NJ. Each case is sourced and checked. This project has contains the dataset itself, a performed analysis of the data, and an interactive case tracker.
 
 | | |
 |---|---|
@@ -30,9 +28,6 @@ DOT Office of Inspector General, the NYC Comptroller's audit office, and SEC enf
 Every case is checked against a second, independent source before being marked confirmed,
 probable, or uncorroborated.
 
-This is a standalone project: no data, code, or branding shared with any other project in this
-account. It's meant to be read alongside the federal-level Infrastructure Risk Diligence project,
-but doesn't depend on it — cases already captured there are excluded here.
 
 ## Headline result
 
@@ -93,14 +88,14 @@ six, construction-focused categories. Because every case here already cleared th
 substantiated enforcement action, the severity mix leans toward higher severity — it isn't a
 representative sample of a normal control environment.
 
-The risk-tier indicator ("Elevated Focus" / "Recurring Pattern" / "Isolated Precedent") is a fixed,
+The risk indicator ("Elevated Focus" / "Recurring Pattern" / "Isolated Precedent") is a fixed,
 disclosed rule — pervasiveness, whether the pairing includes a Material Weakness case, and recency
 — not a machine-learning model. It shows where scrutiny has concentrated historically, not a
 forecast of future fraud. Both layers appear case-by-case and in aggregate in the tracker.
 
 ## Files
 
-- `build_dataset.py` — the dataset itself: 126 case records, each checked against a second source
+- `build_dataset.py` — the dataset: 126 case records, each checked against a second source
   and classified confirmed, probable, or uncorroborated. Every record has a `state` field (`NY`,
   `NJ`, or `NY/NJ` for the bi-state Port Authority). Writes `data/raw_cases.csv`.
 - `analyze.py` — deduplicates and verifies the records, groups region and agency names into a
@@ -125,8 +120,7 @@ forecast of future fraud. Both layers appear case-by-case and in aggregate in th
 ## How the tracker works
 
 The tracker ("NYNJ Capital Risk Data") is built by three more scripts that run after the ones
-above. They precompute everything the tracker shows, so the page itself never calls a model —
-visiting it doesn't use anyone's Claude usage.
+above. They precompute everything the tracker shows, so the page itself never calls a model.
 
 - `data/ai_typology.json` — a fraud-mechanism category for each case (one of 8, such as
   Bid-Rigging or Bribery/Kickback), a few case-specific red flags, a verification-gap note, and a
@@ -141,16 +135,6 @@ visiting it doesn't use anyone's Claude usage.
 - `build_tracker.py` — assembles all of the above, plus the case register, filters, map, and
   charts, into `index.html`, served directly from this repo via GitHub Pages.
 
-## Hosting
-
-Everything lives on GitHub: the code and dataset are this repo, and the tracker is served
-straight from it via GitHub Pages at the link above. `index.html` at the repo root is the
-tracker's entire output — one self-contained file with no external scripts, fonts, or images — so
-GitHub Pages serves it as-is with no build step.
-
-To turn this on for a repo (one-time setup): Settings → Pages → Source: "Deploy from a branch" →
-Branch: `main`, folder: `/ (root)` → Save. GitHub publishes the new `index.html` within a minute or
-two of every push to `main`.
 
 ## Reproduce from scratch
 
@@ -168,59 +152,3 @@ python3 risk_index.py          # -> data/risk_index.json, data/state_summaries.j
 python3 state_narratives.py    # -> data/state_narratives.json
 python3 build_tracker.py       # -> index.html (served by GitHub Pages)
 ```
-
-Each script is standalone and prints its own results to stdout, so you can run and check one
-stage at a time instead of trusting a black-box pipeline.
-
-## Notes on methodology
-
-- **One combined dataset, not two separate studies.** When New Jersey was added, every existing
-  New York case kept its original record (backfilled with `state="NY"`), and the New Jersey and
-  bi-state cases were added as a separate, clearly marked block in `build_dataset.py`. Every script
-  after that — `analyze.py`, `controls.py`, `variance_analysis.py`, `charts.py` — runs over all the
-  cases together, so every count and chart reflects both states.
-- **Two different things, told apart.** Agencies in both states often republish the same action at
-  each procedural stage (charged, then pleaded guilty, then sentenced), so those collapse into one
-  case. But some cases involve different co-defendants charged separately for the same underlying
-  scheme (the MTA's Ahern/Tower/Spectrum trio; NYPA's Over Rock Construction scheme) — those stay
-  as separate cases, since each is its own accountability event, but their shared dollar figure is
-  counted once, not once per defendant. The hardest single call is Buffalo Billion/SUNY
-  Polytechnic: convicted in 2018, vacated by the Supreme Court in 2023 (*Ciminelli v. United
-  States*), and resolved by new guilty pleas in 2026. All three stages stay in the dataset as
-  separate records, but only the 2026 outcome — the one that actually stuck — counts toward the
-  total.
-- **Dismissed and vacated cases are disclosed, not dropped.** A dismissed NYC DEP case is kept at
-  $0 rather than deleted. The same applies to New Jersey's highest-profile negative outcome: the
-  2024 racketeering indictment against George Norcross and five co-defendants, dismissed by a
-  Superior Court judge and the appeal rejected, stays in the dataset with its dollar figure zeroed
-  out. A dataset that only records convictions would hide how often a case like this doesn't end
-  that way.
-- **Dollar figures are fraud-specific or realized amounts, not contract value or unproven audit
-  flags.** A Port Authority case where someone was paid $2M to front as a minority participant on
-  a $586M contract is counted at $2M, not $586M. A $67M NJ Schools Construction Corporation
-  finding of "questionable and duplicative payments" is disclosed but excluded from the total,
-  since it's a governance red flag, not an adjudicated loss — the same treatment as a similar NJ
-  patronage-hiring report. A $27.5M finding on NJ Schools Development Authority properties sold
-  below market value is counted, since that's a realized loss.
-- **Region and agency names are simplified only for charts.** The dataset keeps specific,
-  citation-friendly language (e.g. "Capital Region (Albany/Schenectady/Latham)"). `analyze.py`
-  groups these into a smaller set — 10 regions, 39 agencies — for indexing and charts, while the
-  original strings stay in the CSV.
-- **Every case was checked for a second source, not assumed.** Cases that stayed uncorroborated
-  after a documented search are kept, not dropped. A cluster of DASNY MWBE findings and New
-  Jersey's own oversight-commission reports — both substantiated by an inspector general but not
-  prosecuted — make up most of this group in each state.
-- **Hand-coded, not scraped.** Every record was read individually and coded by hand (state,
-  region, agency, project type, entities, dollar figure, violation type, stage, source), so every
-  classification is traceable to a specific person reading a specific page.
-- **Control categories are assigned by reading each case, not by keyword.** This matters most for
-  multi-stage cases whose final record only describes the procedural outcome — Buffalo Billion's
-  2026 record covers the Supreme Court vacatur and new pleas, not the original bid-rigging scheme.
-  Matching on that record alone would misclassify it.
-- **Severity is mechanical, not subjective.** Magnitude (the case's dollar figure) and
-  pervasiveness (how many other cases share the same agency and control category) are both
-  computable from fields already in the dataset, so `controls.py` derives severity from a fixed
-  rule. The only judgment calls are the rubric's thresholds and the one-time control-category
-  assignment above.
-- **The variance waterfall is drawn directly in matplotlib, not a generic bar chart**, since it
-  needs signed, per-driver labels and connector lines to stay readable.
